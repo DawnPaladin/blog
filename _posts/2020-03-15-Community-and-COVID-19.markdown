@@ -15,9 +15,9 @@ COVID-19 is officially a global pandemic. Local and federal governments have dec
 
 Last Saturday, my wife and I went to the grocery store and found they were out of carts. We got a cart from a nice little old lady in exchange for helping her load her groceries into her car, then went inside to discover the reason for the shortage: the checkout line went all the way to the back of the store.
 
-<img class="photo" src="/assets/2020-03-15/line.jpg" alt="A line of grocery carts stretching from the back of the store to the front" />
-<img class="photo" src="/assets/2020-03-15/left-shelf.jpg" alt="A grocery aisle, barren of pasta" />
-<img class="photo" src="/assets/2020-03-15/right-shelf.jpg" alt="Empty boxes of toilet paper" />
+<img class="photo" src="/blog/assets/2020-03-15/line.jpg" alt="A line of grocery carts stretching from the back of the store to the front" />
+<img class="photo" src="/blog/assets/2020-03-15/left-shelf.jpg" alt="A grocery aisle, barren of pasta" />
+<img class="photo" src="/blog/assets/2020-03-15/right-shelf.jpg" alt="Empty boxes of toilet paper" />
 
 <style>
 .photo {
@@ -51,13 +51,13 @@ We see neighbors taking care of each other:
 
 And we see [artists processing fear into beauty](https://www.theguardian.com/artanddesign/2020/mar/18/the-act-of-love-using-photography-to-spread-unity-during-a-pandemic):
 
-<img class="photo" src="/assets/2020-03-15/the-act-of-love.jpg" alt="A man and a woman wearing medical masks over their noses and mouths kiss tenderly." />
+<img class="photo" src="/blog/assets/2020-03-15/the-act-of-love.jpg" alt="A man and a woman wearing medical masks over their noses and mouths kiss tenderly." />
 
 This is a scary time for many. Our way of life has been upended, and there's no telling when it will return to normal, or what "normal" will look like. But as Mr. Rogers put it:
 
-<img class="photo" src="/assets/2020-03-15/mr-rogers.jfif" alt="When I was a boy and I would see scary things in the news, my mother would say to me, 'Look for the helpers. You will always find people who are helping.' --Fred Rogers" />
+<img class="photo" src="/blog/assets/2020-03-15/mr-rogers.jfif" alt="When I was a boy and I would see scary things in the news, my mother would say to me, 'Look for the helpers. You will always find people who are helping.' --Fred Rogers" />
 
-Now to keep this blog from being all sugar and no spice: If you have a favorite ideology that you wish more people would adopt, **this is your moment.** Talk to your neighbors (especially the elderly) and see what they need (while taking appropriate precautions to avoid infecting them). People will remember this month for the rest of their lives. The moral high ground is yours for the taking!
+Now to keep this blog from being all sugar and no spice: If you have a favorite ideology that you wish more people would adopt, **this is your moment.** Talk to your neighbors (especially the elderly) and see what they need (while taking appropriate precautions to avoid infecting them). People will remember this month for the rest of their lives. **The moral high ground is yours for the taking!**
 
 ## This week on the Internet
 
@@ -83,7 +83,7 @@ Now to keep this blog from being all sugar and no spice: If you have a favorite 
 	<blockquote class="imgur-embed-pub" lang="en" data-id="GtfIceE" data-context="false"><a href="//imgur.com/GtfIceE">Oh look this brand is on saAAAAAAHHHHHHHHHHHHHH!!!!</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
 
-## Links
+## Reading material
 
 - [My Semester With the Snowflakes](https://gen.medium.com/my-semester-with-the-snowflakes-888285f0e662): 52-year-old Navy SEAL enrolls in Yale with a bunch of millennials, everything goes better than expected.
 
