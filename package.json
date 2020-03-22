@@ -1,0 +1,11 @@
+{
+  "name": "jekyll-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/_site/index.html",
+  "author": "James Harris (computersherpa@gmail.com)",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "jekyll serve"
+  }
+}
