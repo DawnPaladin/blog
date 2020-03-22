@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Community and COVID-19"
+comments: true
 ---
 
 <style>
@@ -91,4 +92,8 @@ Now to keep this blog from being all sugar and no spice: If you have a favorite 
 
 - [The Nuclear Family was a Mistake](https://www.theatlantic.com/magazine/archive/2020/03/the-nuclear-family-was-a-mistake/605536/): David Brooks looks at how families have changed through time. If our families were more multigenerational, the very old and the very young would both be better off. (It would probably make quarantine more difficult, though.)
 
+We're trying out a new comments system. Hopefully it works! If not, email me your thoughts: james@jamesharris.design
 
+{% if page.comments == true %}
+	{% include comments.html %}
+{% endif %}
