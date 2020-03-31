@@ -56,4 +56,4 @@ exclude:
 
 comments: true
 
-staticman_url: https://dawnpaladin-staticman2.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
+staticman_url: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
