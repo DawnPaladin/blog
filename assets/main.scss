@@ -4,3 +4,13 @@
 @import "minima";
 
 @import "comment-styles";
+
+.site-footer .mailchimp-signup #mc_embed_signup {
+	form {
+		padding: 0 0 0 15px;
+		border-left: 1px solid silver;
+	}
+	label {
+		font-weight: normal;
+	}
+}
