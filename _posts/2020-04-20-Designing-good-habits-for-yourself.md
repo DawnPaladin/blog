@@ -60,7 +60,7 @@ The traditional approach to improving your productivity is to make a New Year's 
 
 Readers, I'd like to know how quarantine is treating you. Here's a poll, and feel free to add more detail in the comments.
 
-<iframe src="http://www.strawpoll.me/embed_1/19828230" style="width:680px;height:426px;border:0;">Loading poll...</iframe>
+<iframe src="//www.strawpoll.me/embed_1/19828230" style="width:680px;height:426px;border:0;">Loading poll...</iframe>
 
 ## Quotes
 
@@ -71,7 +71,7 @@ Readers, I'd like to know how quarantine is treating you. Here's a poll, and fee
 
 ## Mocking the Plague
 
-<iframe class="meme" width="560" height="315" src="https://www.youtube-nocookie.com/embed/iVC01GxFwDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="meme" width="560" height="315" src="//www.youtube-nocookie.com/embed/iVC01GxFwDg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <img class="meme" src="/blog/assets/2020-04-20/cartoon-bears.jpg" alt="Shelter-in-place coping levels measured in cartoon bears. Level 1: Berenstein. Fully clothed, family unit all together, societal rules and standards still being followed, practiced, and respected. Level 2: Pooh. T-shirt and no pants, mostly alone, eating entirely too many sweets, but happy in your blissful ignorance. Level 3: Yogi. Naked except for a hat and tie, surviving off whatever food you can steal, only companion is smaller nude person in a bow tie. Level 4: Charmin. Completely nude, surrounded by others who are completely nude, obsessed with toilet paper." />
 
@@ -80,6 +80,7 @@ Readers, I'd like to know how quarantine is treating you. Here's a poll, and fee
 <img class="meme" src="/blog/assets/2020-04-20/cats-do-care.jpg" alt="hijabby on tumblr: I'm screaming??? So my cat knows I get upset when he steps on my paintings (not yelling or anything I think he just sees me spend hours trying to cover up what his paws do) in my 'studio' which is a crammed small storage closet with painting all over the floor drying , so like I'm in there rn and I saw him try to get to point A to point b but it was impossible for him to jump over so like he realized the matte parts were dry and like he was stepping on the corners of the painting and every step he'd look at his paw to see if he f***ed up and honestly it was the most thoughtful thing ever I don't ever wanna hear anyone ever say that cats don't care" />
 
 <img class="meme" src="/blog/assets/2020-04-20/horse-actors.jpg" alt="scrantonpaper on tumblr: 'me, watching a battle scene: please not the horses. leave them alone. they did nothing wrong. they are the only innocent ones. they don't deserve this.' fiyhi: 'honestly this used to upset me a lot as a kit until my mom, who's worked with horses for many years, told me about how they train the horses in those movies to do things like falling down, kneeling, crawling, or stay laying on the ground after they fall. and how it's so tough to train a prey animal to do these behaviors and how hard both trainer and horse have to work. so now whenever i see a horse take a hit and go down in a movie, i just think 'f***ing superb you funky little horse actor'" />
+
 
 <img class="meme" src="/blog/assets/2020-04-20/last-supper.jpg" alt="An image of the Last Supper. Jesus is alone at the table; the disciples' faces are visible in small boxes at the top of the image because they're in a Zoom call together." />
 
