@@ -81,8 +81,6 @@ Readers, I'd like to know how quarantine is treating you. Here's a poll, and fee
 
 <img class="meme" src="/blog/assets/2020-04-20/horse-actors.jpg" alt="scrantonpaper on tumblr: 'me, watching a battle scene: please not the horses. leave them alone. they did nothing wrong. they are the only innocent ones. they don't deserve this.' fiyhi: 'honestly this used to upset me a lot as a kit until my mom, who's worked with horses for many years, told me about how they train the horses in those movies to do things like falling down, kneeling, crawling, or stay laying on the ground after they fall. and how it's so tough to train a prey animal to do these behaviors and how hard both trainer and horse have to work. so now whenever i see a horse take a hit and go down in a movie, i just think 'f***ing superb you funky little horse actor'" />
 
-<img class="meme" src="/blog/assets/2020-04-20/no-rules.jpg" alt="@ryanbrooks on twitter: 'A bar in my neighborhood is delivering entire liters of their premixed margaritas for $25 and you get a complimentary roll of toilet paper with your purchase and it's really starting to feel like there are no rules anymore'" />
-
 <img class="meme" src="/blog/assets/2020-04-20/last-supper.jpg" alt="An image of the Last Supper. Jesus is alone at the table; the disciples' faces are visible in small boxes at the top of the image because they're in a Zoom call together." />
 
 ## Reading material
