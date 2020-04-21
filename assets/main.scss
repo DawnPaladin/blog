@@ -5,8 +5,22 @@
 
 @import "comment-styles";
 
-.post-list p, .post-content p {
-	font-size: 18px;
+.post-list, .post-content {
+	p, ul, ol {
+		font-size: 18px;
+	}
+	blockquote {
+		p {
+			color: #535353;
+			font-size: 22px;
+		}
+		footer::before {
+			content: '—';
+		}
+	}
+	a {
+		text-decoration: underline;
+	}
 }
 
 .site-footer .mailchimp-signup #mc_embed_signup {
@@ -18,4 +32,10 @@
 	label {
 		font-weight: normal;
 	}
+}
+
+.meme {
+	width: 70%;
+	margin: 0 auto 3em auto;
+	display: block;
 }

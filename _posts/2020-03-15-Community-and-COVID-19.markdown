@@ -56,14 +56,6 @@ Now to keep this blog from being all sugar and no spice: If you have a favorite 
 
 ## This week on the Internet
 
-<style>
-.meme {
-	width: 70%;
-	margin: 0 auto 3em auto;
-	display: block;
-}
-</style>
-
 <img class="meme" src="https://i.redd.it/7fo003yj2ol41.jpg" alt="@QasimRashid on Twitter: 'Last week a Conservative constituent sent me deeply hurtful anti-Muslim tweets.😓 I responded by donating to his GoFundMe to help cover his crushing medical debt. He wrote me a thoughtful & compassionate apology and asked me to visit him. Today I met my new friend Oz 😊 #WinTheHearts" />
 
 <img class="meme" src="https://i.redd.it/hsjtmb94hen41.jpg" alt="@cetELIESparibus on Twitter: 'For my next job interview, I'm gonna ask my 'future' employer on 'what are the things you've done for your employees during the COVID-19 community quarantine." />
