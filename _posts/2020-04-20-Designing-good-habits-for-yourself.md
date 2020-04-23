@@ -6,7 +6,7 @@ comments: true
 
 <a href="https://undeadfaerie2631.tumblr.com/post/615410798181924864/and-theres-the-really-important-4th-day-the-day">From Tumblr:</a>
 
-<img class="meme" src="/blog/assets/2020-04-20/days-of-the-week.png" alt='boxofleftovermuffins: "Due to corona we have 3 days of the week now: yesterday, today, tomorrow". candyradium: "this is just what having adhd is like". undeadfaerie2631: "And there’s the really important 4th day: The day of The Appointment. No one knows how far away it is, but it exists. Looming in the background, waiting to strike."' />
+<img class="meme" src="{{'/assets/2020-04-20/days-of-the-week.png' | absolute_url }}" alt='boxofleftovermuffins: "Due to corona we have 3 days of the week now: yesterday, today, tomorrow". candyradium: "this is just what having adhd is like". undeadfaerie2631: "And there’s the really important 4th day: The day of The Appointment. No one knows how far away it is, but it exists. Looming in the background, waiting to strike."' />
 
 ---
 
@@ -20,13 +20,7 @@ But there's a difference between *being* productive and *feeling* productive. I 
 
 For a long time I've used <a href="https://habitica.com/static/home">Habitica</a> as a to-do list and habit tracker. This has several big benefits: it lets you define things you want to do (once or regularly) and rewards you for doing them with level-ups, loot, and new abilities. It's even better when you join a party. But as with most gamified systems, eventually it runs out of relevant rewards. As of this writing, my Warrior is level 80 and has achieved every interesting goal Habitica can provide. So I decided to build a system better tuned to my own needs.
 
-<style>
-.click-to-embiggen {
-	text-align: center;
-}
-</style>
-
-<a class="click-to-embiggen" href="/blog/assets/2020-04-20/effort-tracker.png"><img src="/blog/assets/2020-04-20/effort-tracker.png" alt="Effort Tracker, a Google Sheets-based to-do list and more">(Click to embiggen)</a>
+<a class="click-to-embiggen" href="{{'/assets/2020-04-20/effort-tracker.png' | absolute_url }}"><img src="{{'/assets/2020-04-20/effort-tracker.png' | absolute_url }}" alt="Effort Tracker, a Google Sheets-based to-do list and more">(Click to embiggen)</a>
 
 There are three time horizons I care about: today, this week, and long-term; these are mapped to the left, center, and right columns.
 
