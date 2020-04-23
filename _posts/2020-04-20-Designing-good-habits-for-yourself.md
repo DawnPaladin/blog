@@ -8,6 +8,10 @@ comments: true
 
 <img class="meme" src="/blog/assets/2020-04-20/days-of-the-week.png" alt='boxofleftovermuffins: "Due to corona we have 3 days of the week now: yesterday, today, tomorrow". candyradium: "this is just what having adhd is like". undeadfaerie2631: "And there’s the really important 4th day: The day of The Appointment. No one knows how far away it is, but it exists. Looming in the background, waiting to strike."' />
 
+---
+
+<br/>
+
 In the Age of Quarantine, different people have different forms of self-care. Mine is productivity.
 
 Presently I'm job-searching full time. Job searching means feeling uncertain a lot. You can't control the number of nibbles you'll get back a particular week; what you can control is how much work you put into the job search.
@@ -22,7 +26,7 @@ For a long time I've used <a href="https://habitica.com/static/home">Habitica</a
 }
 </style>
 
-<a class="click-to-embiggen" href="/blog/assets/2020-04-20/effort-tracker.png"><img src="/blog/assets/2020-04-20/effort-tracker.png" alt="Effort Tracker, a Google Sheets-based to-do list and more">Click to embiggen</a>
+<a class="click-to-embiggen" href="/blog/assets/2020-04-20/effort-tracker.png"><img src="/blog/assets/2020-04-20/effort-tracker.png" alt="Effort Tracker, a Google Sheets-based to-do list and more">(Click to embiggen)</a>
 
 There are three time horizons I care about: today, this week, and long-term; these are mapped to the left, center, and right columns.
 
@@ -47,13 +51,13 @@ That's my system in its current state. I thought about making this into a web ap
 
 I really agree with <a href="https://www.pentadact.com/2019-01-22-my-week/">something Tom Francis said</a> about how he organizes his work time as an indie game developer:
 
-<blockquote>
+<blockquote class="short-quote">
 	<p>Obviously I’m amazingly lucky to have this kind of freedom over my working life. That much freedom can be dangerous: if you don’t consciously get on top of it, create systems and measure the results, you can end up throwing away a huge gift and being miserable despite it.</p>
 </blockquote>
 
 The traditional approach to improving your productivity is to make a New Year's resolution, promise yourself really hard that you're going to do better, spend lots of willpower forcing it, and then feel disappointed in yourself when the willpower runs out. I'm not a fan of that approach. I've played enough games in my life that I understand a little about how systems incentivize behavior. [Farnam Street has an excellent introduction to the topic](https://fs.blog/2017/10/bias-incentives-reinforcement/) that opens with this great quote:
 
-<blockquote>
+<blockquote class="short-quote">
 	<p>Never, ever, think about something else when you should be thinking about the power of incentives.</p>
 	<footer>Charlie Munger</footer>
 </blockquote>
@@ -64,7 +68,7 @@ Readers, I'd like to know how quarantine is treating you. Here's a poll, and fee
 
 ## Quotes
 
-<blockquote>
+<blockquote class="short-quote">
 	<p>What the pupil must learn, if he learns anything at all, is that the world will do most of the work for you, provided you cooperate with it by identifying how it really works and aligning with those realities. If we do not let the world teach us, it teaches us a lesson.</p>
 	<footer>Joseph Tussman</footer>
 </blockquote>

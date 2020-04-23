@@ -6,12 +6,18 @@
 @import "comment-styles";
 
 .post-list, .post-content {
+	h1 a.post-link {
+		font-size: 36px;
+		text-decoration: none;
+	}
 	p, ul, ol {
 		font-size: 18px;
 	}
 	blockquote {
 		p {
 			color: #535353;
+		}
+		&.short-quote p {
 			font-size: 22px;
 		}
 		footer::before {
@@ -20,6 +26,9 @@
 	}
 	a {
 		text-decoration: underline;
+	}
+	.comments-link {
+		display: block;
 	}
 }
 

@@ -13,15 +13,17 @@ layout: default
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {{ post.content }}
-        <a href="{{ post.url | relative_url }}#comments">{{ site.data.comments[post.slug] | size }} comments</a>
+        <article>
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h1>
+            <a class="post-link" href="{{ post.url | relative_url }}">
+              {{ post.title | escape }}
+            </a>
+          </h1>
+          {{ post.content }}
+          <a href="{{ post.url | relative_url }}#comments" class="comments-link">{{ site.data.comments[post.slug] | size }} comments</a>
+        </article>
       </li>
       {%- endfor -%}
     </ul>
