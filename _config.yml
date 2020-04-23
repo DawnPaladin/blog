@@ -24,7 +24,7 @@ author: James Harris
 description: >- # this means to ignore newlines until "baseurl:"
   Making the world brighter
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jamesharris.design" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  dawnpaladin
 
