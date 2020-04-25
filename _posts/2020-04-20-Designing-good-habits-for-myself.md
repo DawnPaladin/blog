@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Designing good habits for yourself"
+title: "Designing good habits for myself"
 comments: true
 ---
 
