@@ -22,6 +22,6 @@ However, each of these advantages has a hidden downside:
 
 In my view, the cost/benefit analysis has reached a tipping point, so I'm making an effort to move away from cloud services where possible. In some cases, moving away from cloud services is impractical, especially for things like email that innately rely on connectivity (I'm told that running your own email server is a huge hassle). But for some things, the cloud solution has been annoying for a long time - I am sick and tired of YouTube sticking ads between my songs and badgering me to sign up for a paid plan.
 
-<img class="meme" src="{{ '/assets/2021-07-19/lando.png' | absolute_url }}" alt='Lando Calrissian: "This deal is getting worse all the time."' />
+<img class="meme" src="{{ '/assets/2021-07-19/lando.jpg' | absolute_url }}" alt='Lando Calrissian: "This deal is getting worse all the time."' />
 
 So as I ditch various cloud services and set up alternatives that I have more control over, I'll post about them here. If you have any requests, post them in the comments!
