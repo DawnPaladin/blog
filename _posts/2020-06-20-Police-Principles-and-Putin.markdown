@@ -14,6 +14,8 @@ As a consequence of its priorities, the Russian government is corrupt from top t
 
 That includes the police. When my parents bought an apartment in Yakutsk, on the advice of the locals, we had a steel door installed. It was a big brown slab of metal with no handle, only a little slot an inch tall and a quarter-inch wide. This fit the door's key, which was a metal bar eight inches long with square teeth machined into the sides; if I'd ever been jumped in the street, that key would've been my go-to defensive weapon. 
 
+<img class="photo" src="/blog/assets/2020-06-20/Yakutsk-key.jpg" alt="Enormous machined key" />
+
 The reason we needed the steel door was because if the Russian mafia ever decided that we as Americans had enough loose cash for a good shakedown, the Russian police would have sided with the highest bidder. The mafia would've started beating down our door, we'd have called the police, the police would have shown up, the mafia would've bribed them, and unless we could outbid the mafia, the police would've sided with them.
 
 Russia is a place where the police have no accountability. They wield force however they want. The populace lives in fear, because calling the police only ever makes things worse. It's a scary place to live--bad things happen, and when they do there is no remedy.
