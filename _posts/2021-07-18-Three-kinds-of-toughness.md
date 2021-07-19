@@ -18,9 +18,14 @@ I know what pain feels like. I've been through boot camp, aching loneliness, and
 
 As David Brooks says in his column ["Making Modern Toughness"](https://www.nytimes.com/2016/08/30/opinion/making-modern-toughness.html):
 
-> "The people we admire for being resilient are not hard; they are ardent. They have a fervent commitment to some cause, some ideal or some relationship. That higher yearning enables them to withstand setbacks, pain and betrayal.
-> "Such people are, as they say in the martial arts world, strong like water. A blow might sink into them, and when it does they are profoundly affected by it. But they can absorb the blow because it's short term while their natural shape is long term.
-> "There are moments when they feel swallowed up by fear. They feel and live in the pain. But they work through it and their ardent yearning is still there, and they return to an altered wholeness.
-> "In this way of thinking, grit, resilience and toughness are not traits that people possess intrinsically. They are not tools you can possess independently for the sake of themselves. They are means inspired by an end."
+<blockquote>
+	<p>"The people we admire for being resilient are not hard; they are ardent. They have a fervent commitment to some cause, some ideal or some relationship. That higher yearning enables them to withstand setbacks, pain and betrayal.</p>
+
+	<p>"Such people are, as they say in the martial arts world, strong like water. A blow might sink into them, and when it does they are profoundly affected by it. But they can absorb the blow because it's short term while their natural shape is long term.</p>
+
+	<p>"There are moments when they feel swallowed up by fear. They feel and live in the pain. But they work through it and their ardent yearning is still there, and they return to an altered wholeness.</p>
+
+	<p>"In this way of thinking, grit, resilience and toughness are not traits that people possess intrinsically. They are not tools you can possess independently for the sake of themselves. They are means inspired by an end."</p>
+</blockquote>
 
 Just make sure the telos you build your life on is a sturdy one. If it collapses, so will everything built upon it.
