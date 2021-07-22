@@ -25,3 +25,7 @@ In my view, the cost/benefit analysis has reached a tipping point, so I'm making
 <img class="meme" src="{{ '/assets/2021-07-19/lando.jpg' | absolute_url }}" alt='Lando Calrissian: "This deal is getting worse all the time."' />
 
 So as I ditch various cloud services and set up alternatives that I have more control over, I'll post about them here. If you have any requests, post them in the comments!
+
+## Posts in this series
+
+- [File syncing](/blog/2021/07/20/Hardened-file-syncing.html)
