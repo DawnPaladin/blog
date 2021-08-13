@@ -4,7 +4,7 @@ title: "Infrastructure hardening: Password vault"
 comments: true
 ---
 
-_Previously in this series: [Hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html), [File syncing](/blog/2021/07/20/Hardened-file-syncing.html)_
+_A guide for Windows, MacOS, and Android. Previously in this series: [Hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html), [File syncing](/blog/2021/07/20/Hardened-file-syncing.html)_
 
 Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
 
@@ -22,7 +22,7 @@ I looked at a lot of different password vaults as part of writing this. Obviousl
 
 I'm recommending **KeePassXC** for its ease-of-use, browser integration, and cross-platform compatibility. This is an open-source password vault [recommended by the Electronic Freedom Foundation](https://ssd.eff.org/en/module/how-use-keepassxc) that's actively maintained by volunteers who check each other's work. Importantly for our purposes, it doesn't use the cloud at all--the password vault is saved to a file on your hard drive, which we'll sync between our computers using Syncthing.
 
-The best thing about this is that it's **yours forever.** No company going out of business can take away your password vault. Of course, the fact that this is *yours* means it will be a little more work than something that someone else manages for you, but not a *lot* more; we're going to keep it as simple as we can.
+The best thing about this is that it's **yours forever.** No company going out of business can take away your password vault. Of course, the fact that this is *yours* means it will be a little more work than something that someone else manages for you, but not a *lot* more; we're going to keep it as simple as we can. You can do this, dear reader. I believe in you.
 
 ## Setup
 
@@ -32,9 +32,9 @@ Download KeePassXC from [the download page](https://keepassxc.org/download/). If
 
 Before we proceed, if you already have passwords stored somewhere, whether it's in another password manager or your browser, you'll need to export those so we can load them into KeePass. The format you'll want to put them in is called CSV (short for "comma-separated value"); it's a universal interchange format supported by pretty much everything. Go wherever your passwords are stored and export them as a CSV file. [Here's how to do that in Google Chrome](https://winaero.com/how-to-export-and-import-passwords-from-csv-file-in-google-chrome/); you can find tutorials for other programs by googling the name of the program and "export passwords to csv".
 
-Got your CSV file? Good. Click "Import from CSV" and open your CSV file. Give your database a name ("Passwords" is fine) and click "Continue" twice. 
+Got your CSV file? Good. In KeePassXC, click "Import from CSV" and open your CSV file. Give your database a name ("Passwords" is fine) and click "Continue" twice.
 
-Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Then click Done.
+Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. Then click Done.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
@@ -52,7 +52,7 @@ When you're done, click OK. If you did it right, you'll be looking at a password
 
 If you don't have all your passwords saved anywhere, you just have to create an empty database. Click "Create new database" and click Continue twice.
 
-Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Then click Done.
+Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. Then click Done.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
@@ -62,7 +62,7 @@ Once you've saved your database, you should be seeing a folder named "Root" on t
 
 KeePassXC offers a browser extension that will autofill passwords on websites for you. This will make our day-to-day lives a lot easier.
 
-1. Open the Tools menu and click Settings.
+1. In KeePassXC, open the Tools menu and click Settings.
 2. Click "Browser Integration" on the left.
 3. Check the box that says "Enable browser integration".
 4. Check the box(es) for the browser(s) you use. Then click the link(s) corresponding to the browser(s) you use; this will take you to a page where you can install each browser extension. Click OK.
@@ -83,9 +83,9 @@ First, make sure your database is in a folder that's being synced to your phone 
 
 Next, if you have an Android phone, click [this link](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) to install KeePassDX. I don't have an iPhone, but there are a number of iPhone apps available from [KeePass' website](https://keepass.info/download.html); pick one that looks good to you. (If you find one you like, please comment and I'll add it to this guide.)
 
-Open the app and click "Open Existing Database". Browse to the location of the synced folder and tap on it.
+Open the app and click "Open Existing Database". Browse to the location of the synced folder and tap on your password database.
 
-KeePassDX will make you tap through several pop-ups that perkily explain its various controls and features. Remain calm and tap where it tells you to tap. Type in your vault's password, then click the fingerprint icon near the top of the screen. Now put your finger on your phone's fingerprint scanner. Your vault will open, and KeePassDX will ask for a quick fingerprint swipe in the future rather than making you retype your password when you want to use your password vault.
+KeePassDX will make you tap through several pop-ups that chirpily explain its various controls and features. Remain calm and tap where it tells you to tap. Type in your vault's password, then tap the fingerprint icon near the top of the screen. Now put your finger on your phone's fingerprint scanner. Your vault will open, and KeePassDX will ask for a quick fingerprint swipe in the future rather than making you retype your password when you want to use your password vault. (Your fingerprint is saved only on your phone and isn't uploaded anywhere.)
 
 Now that your password vault is open, we're going to set up your phone so that KeePassDX can auto-fill passwords in your browser.
 
@@ -96,11 +96,11 @@ Now that your password vault is open, we're going to set up your phone so that K
 5. Tap KeePassDX form autofilling.
 6. Your phone will warn you about data privacy. Click OK.
 
-We're all set. You may notice a "Database opened" entry in your phone's notification pane; Android requires apps that want to run in the background (like KeePassDX) display a notification. I like to keep my notifications tidy, so I'm going to swipe right on the notification, tap the gear icon, tap "Turn off notifications", tap the switch next to "Database", and tap "Apply". No more persistent notification.
+We're all set. You may notice a "Database opened" entry in your phone's notification pane; Android requires apps that want to run in the background (like KeePassDX) to display a notification. I like to keep my notifications tidy, so I'm going to swipe right on the notification, tap the gear icon, tap "Turn off notifications", tap the switch next to "Database", and tap "Apply". No more persistent notification.
 
 ## Using the browser extension
 
-You finished setup! Good for you
+You finished setup! Good for you. Now let's do a quick walkthrough of how to use your password vault day-to-day.
 
 You can manage your passwords either through the browser extension or directly in the app. I like the browser extension since it doesn't pull me out of my workflow.
 
@@ -116,7 +116,7 @@ Click "Copy" to copy the password to your clipboard, then click "Fill password" 
 
 KeePassXC shows this banner when it detects that you're trying to create or update a password. Unfortunately this detection is not perfect; if KeePassXC misses a password, you'll need to open the app and add it there (see below). (This is why we clicked "Copy" a minute ago--if KeePassXC neglected to capture the password and we didn't have it on our clipboard, we'd need to go through the site's password-reset process. Instead we can just open KeePassXC, click "New", and paste the password in from our clipboard.) 
 
-Since the banner showed up, all we have to do is click "New" and we're done. KeePassXC automatically creates a new entry in our password vault with everything filled out. (If you're changing a password for a site KeePass already knows about, click "Update" instead of "New".)
+Since the banner showed up, all we have to do is click the green "New" button and we're done. KeePassXC automatically creates a new entry in our password vault with everything filled out. (If you're changing a password for a site KeePass already knows about, click "Update" instead of "New".)
 
 ### Logging in
 
