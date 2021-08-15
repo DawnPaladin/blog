@@ -34,7 +34,7 @@ Before we proceed, if you already have passwords stored somewhere, whether it's 
 
 Got your CSV file? Good. In KeePassXC, click "Import from CSV" and open your CSV file. Give your database a name ("Passwords" is fine) and click "Continue" twice.
 
-Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. Then click Done.
+Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. I recommend that you write it down and keep it somewhere safe--a place where someone wouldn't get the password if they physically stole your computer. Then click Done.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
@@ -52,7 +52,7 @@ When you're done, click OK. If you did it right, you'll be looking at a password
 
 If you don't have all your passwords saved anywhere, you just have to create an empty database. Click "Create new database" and click Continue twice.
 
-Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. Then click Done.
+Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. I recommend that you write it down and keep it somewhere safe--a place where someone wouldn't get the password if they physically stole your computer. Then click Done.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
