@@ -62,22 +62,26 @@ Once you've saved your database, you should be seeing a folder named "Root" on t
 
 KeePassXC offers a browser extension that will autofill passwords on websites for you. This will make our day-to-day lives a lot easier.
 
-1. In KeePassXC, open the Tools menu and click Settings.
+1. Open KeePassXC's Settings window. On Windows, this is in the Tools menu under Settings; on Mac it's in the KeePassXC menu under Preferences.
 2. Click "Browser Integration" on the left.
 3. Check the box that says "Enable browser integration".
 4. Check the box(es) for the browser(s) you use. Then click the link(s) corresponding to the browser(s) you use; this will take you to a page where you can install each browser extension. Click OK.
-5. Once you've clicked OK in KeePass and installed the browser extension, click its toolbar button to open it, then click "Connect".
+<img src="{{'/assets/2021-07-27/browser-integration.png' | absolute_url }}" alt="KeePassXC browser integration window" />
+1. Once you've clicked OK in KeePass and installed the browser extension, click its toolbar button to open it, then click "Connect".
+<img src="{{'/assets/2021-07-27/connect-firefox.png' | absolute_url }}" alt="Connecting the KeePassXC browser extension" />
 6. KeePass will ask you to name the connection. I'm calling mine "Firefox-Alar", since Firefox is the browser I'm using and Alar is the name of my computer. It's not super important.
 
-Let's change some settings that will make things easier for us later. First, open KeePass again, open the Tools menu and click Settings, then Browser Integration, then click the "Advanced" tab. Check the box that says "Never ask before accessing credentials". If you don't do this, KeePass will pop up a "Browser Access Request" window every time it has a password to offer you, which is annoying.
+Let's change some settings that will make things easier for us later. First, open the KeePass Browser Integration Settings window again, as you did in steps 1 and 2 above. Click the "Advanced" tab. Check the box that says "Never ask before accessing credentials". If you don't do this, KeePass will pop up a "Browser Access Request" window every time it has a password to offer you, which is annoying.
 
 Now let's go look at the settings for the browser extension.
 
 <img class="photo" src="{{'/assets/2021-07-27/firefox-settings.png' | absolute_url }}" alt="KeePassXC's browser extension" />
 
-Click the extension in your browser toolbar, then click "Settings". On the Settings screen, check the "Activate password generator icons" box.
+Click the extension in your browser toolbar, then click "Settings". On the Settings screen, check the "Activate password generator icons" box. This will make it easier for us to generate passwords later.
 
 ### The phone app
+
+Now we're going to set up your password vault on your phone.
 
 First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/2021/07/20/Hardened-file-syncing.html).
 
@@ -103,6 +107,8 @@ We're all set. You may notice a "Database opened" entry in your phone's notifica
 You finished setup! Good for you. Now let's do a quick walkthrough of how to use your password vault day-to-day.
 
 You can manage your passwords either through the browser extension or directly in the app. I like the browser extension since it doesn't pull me out of my workflow.
+
+If the browser extension isn't working, make sure that KeePassXC is open and your vault is unlocked.
 
 ### Creating a new password
 
