@@ -8,6 +8,8 @@ _A guide for Windows, MacOS, and Android. Previously in this series: [Hardening 
 
 Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
 
+<!-- cut -->
+
 Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness--it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
 
 <img class="meme" src="{{ '/assets/2021-07-27/passwords-meme.jpg' | absolute_url }}" alt='She-Ra meme. Old and broken: Guessing passwords. New and cool: Stealing passwords.' />

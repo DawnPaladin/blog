@@ -8,6 +8,8 @@ comments: true
 
 <img class="meme" src="{{'/assets/2020-04-20/days-of-the-week.png' | absolute_url }}" alt='boxofleftovermuffins: "Due to corona we have 3 days of the week now: yesterday, today, tomorrow". candyradium: "this is just what having adhd is like". undeadfaerie2631: "And there’s the really important 4th day: The day of The Appointment. No one knows how far away it is, but it exists. Looming in the background, waiting to strike."' />
 
+<!-- cut -->
+
 ---
 
 <br/>

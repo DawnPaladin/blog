@@ -6,6 +6,8 @@ comments: true
 
 I spent almost 10 years of my childhood in Russia. Russia is kind of a different planet than the United States.
 
+<!-- cut -->
+
 In the US we have an understanding that, *at least in theory,* the government exists to enforce justice. We expect that when a government official is publicly caught embezzling money or abusing their power, they will be fired, prosecuted, and replaced. That's a big part of why we have a government in the first place: safeguarding justice by prosecuting criminals.
 
 In Russia, that sentiment would be considered laughably naïve. In Russia, the government exists to help the people at the top exert power over everyone else. That's not a radical statement, just a statement of fact. It's been that way for hundreds of years. President Putin [routinely assassinates his rivals](https://www.businessinsider.com/list-of-people-putin-is-suspected-of-assassinating-2016-3) under paper-thin cover, [rigs the elections](https://www.theguardian.com/commentisfree/2018/feb/08/vladimir-putin-russian-election-iran-zimbabwe), or just [has the term limits reset](https://www.reuters.com/article/us-russia-politics/putin-approves-changes-allowing-him-to-stay-in-power-until-2036-idUSKBN20X1FD). Before the current system they had Communism, and before that it was the Czars. Everyone in Russia expects the government to serve its own interests first, last, and always. No-one expects it to get better any time soon.

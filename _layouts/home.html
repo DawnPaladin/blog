@@ -21,8 +21,8 @@ layout: default
               {{ post.title | escape }}
             </a>
           </h1>
-          {{ post.content }}
-          <a href="{{ post.url | relative_url }}#comments" class="comments-link">{{ site.data.comments[post.slug] | size }} comments</a>
+          {{ post.excerpt }}
+          <a href="{{ post.url | relative_url }}" class="read-more-link">Read more...</a>
         </article>
       </li>
       {%- endfor -%}

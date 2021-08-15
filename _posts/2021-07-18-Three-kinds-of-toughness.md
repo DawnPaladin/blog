@@ -6,6 +6,8 @@ comments: false
 
 I know of three kinds of toughness -- three ways of dealing with the hurts life sends our way.
 
+<!-- cut -->
+
 The first way is to externalize it -- offload it onto other people. When someone hits you, hit them back twice as hard -- and if you can't hit them, hit somebody else. If the world is afraid of you, it will hurt you less, is the idea. The downside is that you hurt a lot of innocent people, and you make it very difficult for people to tell you about things that hurt. This makes real intimacy impossible and puts you in a position of being constantly blindsided by things that people were too intimidated to warn you about.
 
 The second way is to internalize -- to "suck it up". When something bad happens or you get a feeling you don't like, just set it aside and don't think about it. Over the short term, this works great; over the long term you wind up with an ever-growing landfill of unresolved emotional issues. The emotional energy from all of these situations hasn't gone away; it's still in there, like a capacitor, waiting to discharge into the first person who touches it.

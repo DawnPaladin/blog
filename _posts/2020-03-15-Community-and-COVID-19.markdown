@@ -6,6 +6,8 @@ comments: true
 
 The apocalypse is here, and it isn't that bad.
 
+<!-- cut -->
+
 COVID-19 is officially a global pandemic. Local and federal governments have declared a state of emergency and asked citizens to self-quarantine. Schools and offices are getting a crash course in working remotely.
 
 Last Saturday, my wife and I went to the grocery store and found they were out of carts. We got a cart from a nice little old lady in exchange for helping her load her groceries into her car, then went inside to discover the reason for the shortage: the checkout line went all the way to the back of the store.

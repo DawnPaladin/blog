@@ -58,3 +58,5 @@ exclude:
 comments: true
 
 staticman_url: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
+
+excerpt_separator: <!-- cut -->
