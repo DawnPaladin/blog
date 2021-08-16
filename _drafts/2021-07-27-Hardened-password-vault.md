@@ -4,7 +4,7 @@ title: "Infrastructure hardening: Password vault"
 comments: true
 ---
 
-_A guide for Windows, MacOS, and Android. Previously in this series: [Hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html), [File syncing](/blog/2021/07/20/Hardened-file-syncing.html)_
+_Part of my series on [hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
 
 Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
 
@@ -18,7 +18,7 @@ Most people have a small number of passwords that they reuse across a bunch of w
 
 The consensus among security researchers is that the best way for the average joe to protect against this is to use a password vault. A password vault will auto-generate a strong, unique password for each website and then remember them for you. All of your site-specific passwords get secured behind a single master password which you use to access the vault. Not only is this more secure, it's more convenient, because you don't have to remember all those passwords any more.
 
-"But wait!" I hear you cry. "'Tis a scam! How do I know I can trust the password vault company?" And you know what, fair point. Vendors like LastPass and DashLane keep your password vault in the cloud, where you (or someone claiming to be you) can access it from anywhere. They take security seriously, and have various measures in place to rebuff attackers, but storing all the passwords for thousands of customers is certainly painting a big target on yourself. So let's set up a password vault that won't have that problem.
+"But wait!" I hear you cry. "'Tis a scam! How do I know the password vault company won't get hacked?" And you know what, fair point. Vendors like LastPass and DashLane keep your password vault in the cloud, where you (or someone claiming to be you) can access it from anywhere. They take security seriously, and have various measures in place to rebuff attackers, but storing all the passwords for thousands of customers is certainly painting a big target on yourself. So let's set up a password vault that won't have that problem.
 
 I looked at a lot of different password vaults as part of writing this. Obviously security is important for something like this, but so is ease-of-use, and I feel like not all developers get that. If using software the right way is hard, people will find a way that's easy, and it probably won't be secure; that's why people write passwords on sticky notes and reuse passwords across websites. So in writing this guide I'm trying to make everything as straightforward as I possibly can; if you get stuck, let me know in the comments and I'll see what I can do.
 
@@ -146,7 +146,7 @@ If the browser extension misses a password, here's how to add it to your vault. 
 
 <img src="{{'/assets/2021-07-27/new-password.png' | absolute_url }}" alt="KeePassXC new password screen" />
 
-Fill in the form. All of the fields are optional. You can have KeePass generate a random password for you by clicking the the icon on the right side of the password field that looks like one of the dice from Monopoly. Don't forget to fill in the URL field; KeePassXC needs that to so it can autofill your password in the browser. When you're done, click OK.
+Fill in the form. All of the fields are optional. You can have KeePass generate a random password for you by clicking the the icon on the right side of the password field that looks like one of the dice from Monopoly. Don't forget to fill in the URL field; KeePassXC needs that so it can autofill your password in the browser. When you're done, click OK.
 
 ### Logging in
 
@@ -162,7 +162,7 @@ When you're browsing the web on your phone, and you tap in a password field, you
 
 Tap the bubble and KeePassDX will autofill your username and password. Easy as that.
 
----
+## Conclusion
 
 I know that's a lot! If you've made it this far, I salute your dedication. You are now more secure than 99% of the people on the Internet. Your password vault will live from generation to generation of phones and computers, and you will save countless hours of resetting passwords and struggling to remember new ones. Congratulations!
 
