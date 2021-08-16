@@ -24,7 +24,11 @@ I looked at a lot of different password vaults as part of writing this. Obviousl
 
 I'm recommending **KeePassXC** for its ease-of-use, browser integration, and cross-platform compatibility. This is an open-source password vault [recommended by the Electronic Freedom Foundation](https://ssd.eff.org/en/module/how-use-keepassxc) that's actively maintained by volunteers who check each other's work. Importantly for our purposes, it doesn't use the cloud at all--the password vault is saved to a file on your hard drive, which we'll sync between our computers using Syncthing.
 
-The best thing about this is that it's **yours forever.** No company going out of business can take away your password vault. Of course, the fact that this is *yours* means it will be a little more work than something that someone else manages for you, but not a *lot* more; we're going to keep it as simple as we can. You can do this, dear reader. I believe in you.
+The best thing about this is that it's **yours forever.** No company going out of business can take away your password vault. KeePassXC is one of many "forks" (versions) of KeePass; they're maintained by different people and they all use the same file format. If you decide you don't like KeePassXC you can switch to a different fork of KeePass and your database will still work.
+
+Of course, the fact that this is *yours* means it will be a little more work than something that someone else manages for you, but not a *lot* more; we're going to keep it as simple as we can. If you see an error message, google for "keepass" and whatever the error says; KeePass is popular enough that you can probably find someone who's had the same problem. Refer to [this cheat sheet](https://xkcd.com/627/) if you get stuck.
+
+You can do this, dear reader. I believe in you.
 
 ## Setup
 
@@ -60,7 +64,7 @@ Next KeePass will ask where to store your password database. This is up to you; 
 
 Once you've saved your database, you should be seeing a folder named "Root" on the left and an empty listing on the right. You have a password database! Congratulations - you should only need to do that once. Now let's set up your various devices so they can use it.
 
-### The browser extension
+### Setting up the browser extension
 
 KeePassXC offers a browser extension that will autofill passwords on websites for you. This will make our day-to-day lives a lot easier.
 
@@ -81,7 +85,7 @@ Now let's go look at the settings for the browser extension.
 
 Click the extension in your browser toolbar, then click "Settings". On the Settings screen, check the "Activate password generator icons" box. This will make it easier for us to generate passwords later.
 
-### The phone app
+### Setting up the phone app
 
 Now we're going to set up your password vault on your phone.
 
