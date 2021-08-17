@@ -32,7 +32,7 @@ You can do this, dear reader. I believe in you.
 
 ## Setup
 
-Download KeePassXC from [the download page](https://keepassxc.org/download/). If you're on Windows, click "MSI Installer". Run the setup program that gets downloaded (the default options are fine); it will open the program when it's done. Now we need to create our password vault.
+Download KeePassXC from [the download page](https://keepassxc.org/download/). If you're on Windows, click "MSI Installer". Run the setup program that gets downloaded, making sure "start on login" is checked; when it's done, open the program. Now we need to create our password vault.
 
 ### Importing passwords from another program
 
@@ -62,20 +62,35 @@ Now it's time to choose a master password for your vault. I recommend picking a 
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
-Once you've saved your database, you should be seeing a folder named "Root" on the left and an empty listing on the right. You have a password database! Congratulations - you should only need to do that once. Now let's set up your various devices so they can use it.
+Once you've saved your database, you should be seeing a folder named "Root" on the left and an empty listing on the right. Congratulations--you have a password database!
+
+### Setting up minimize to tray
+
+If you're like me, you don't like having extra windows open all the time. We need to have KeePassXC open to use our password vault, but we want it out of the way, so let's have it turn into an icon in our tray when we're not using it. (On Windows, the tray is the collection of icons by your system clock in the lower-right corner of your screen. You probably have just a few icons visible most of the time; click the little arrow to see the rest of them. On Mac, the icon will go in your menu bar.)
+
+In KeePassXC, click the gear icon to open Settings. On the left, "General" should be selected. Go through and check these boxes:
+- [x] Automatically launch KeePassXC at system startup
+- [x] Minimize window after unlocking database
+
+Now scroll down to "User Interface" and check these boxes:
+- [x] Minimize instead of app exit
+- [x] Show a system tray icon
+- [x] Hide window to system tray when minimized
+
+Much better. Now let's set up your various devices so they can use your password vault.
 
 ### Setting up the browser extension
 
 KeePassXC offers a browser extension that will autofill passwords on websites for you. This will make our day-to-day lives a lot easier.
 
-1. Open KeePassXC's Settings window. On Windows, this is in the Tools menu under Settings; on Mac it's in the KeePassXC menu under Preferences.
+1. Open KeePassXC's Settings window by clicking the gear icon on the menu bar.
 2. Click "Browser Integration" on the left.
 3. Check the box that says "Enable browser integration".
 4. Check the box(es) for the browser(s) you use. Then click the link(s) corresponding to the browser(s) you use; this will take you to a page where you can install each browser extension. Click OK.
 <img src="{{'/assets/2021-07-27/browser-integration.png' | absolute_url }}" alt="KeePassXC browser integration window" />
-1. Once you've clicked OK in KeePass and installed the browser extension, click its toolbar button to open it, then click "Connect".
+5. Once you've clicked OK in KeePass and installed the browser extension, click its toolbar button to open it, then click "Connect". (If this doesn't work, try restarting your browser.)
 <img src="{{'/assets/2021-07-27/connect-firefox.png' | absolute_url }}" alt="Connecting the KeePassXC browser extension" />
-6. KeePass will ask you to name the connection. I'm calling mine "Firefox-Alar", since Firefox is the browser I'm using and Alar is the name of my computer. It's not super important.
+6. KeePass will ask you to name the connection. Type in the name of your browser.
 
 Let's change some settings that will make things easier for us later. First, open the KeePass Browser Integration Settings window again, as you did in steps 1 and 2 above. Click the "Advanced" tab. Check the box that says "Never ask before accessing credentials". If you don't do this, KeePass will pop up a "Browser Access Request" window every time it has a password to offer you, which is annoying.
 
@@ -91,7 +106,7 @@ Now we're going to set up your password vault on your phone.
 
 First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/2021/07/20/Hardened-file-syncing.html).
 
-Next, if you have an Android phone, click [this link](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) to install KeePassDX. I don't have an iPhone, but there are a number of iPhone apps available from [KeePass' website](https://keepass.info/download.html); pick one that looks good to you. (If you find one you like, please comment and I'll add it to this guide.)
+Next, if you have an Android phone, click [this link](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) to install KeePassDX, another fork of KeePass. I don't have an iPhone, but there are a number of iPhone apps available from [KeePass' website](https://keepass.info/download.html); pick one that looks good to you. (If you find one you like, please comment and I'll add it to this guide.)
 
 Open the app and click "Open Existing Database". Browse to the location of the synced folder and tap on your password database.
 
