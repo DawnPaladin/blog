@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Hardening your personal infrastructure"
 comments: true
 ---

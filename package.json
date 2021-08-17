@@ -6,6 +6,6 @@
   "author": "James Harris (computersherpa@gmail.com)",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "jekyll serve --drafts"
+    "dev": "JEKYLL_ENV=production jekyll serve --drafts" // JEKYLL_ENV=production makes the comments show up
   }
 }

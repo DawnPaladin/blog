@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Community and COVID-19"
 comments: true
 ---

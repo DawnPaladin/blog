@@ -1,0 +1,33 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// @import "comment-styles";
+
+.comments {
+	.form::before {
+		display: none;
+	}
+}
+
+.site-footer .mailchimp-signup #mc_embed_signup {
+	form {
+		padding: 0 0 0 15px;
+		border-left: 1px solid silver;
+		background-color: #fdfdfd;
+	}
+	label {
+		font-weight: normal;
+	}
+}
+
+.meme {
+	width: 70%;
+	margin: 0 auto 3em auto;
+	display: block;
+	box-shadow: 5px 5px 10px gray;
+}

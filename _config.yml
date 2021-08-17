@@ -27,6 +27,8 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://jamesharris.design" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  dawnpaladin
+og_image: /assets/cover.jpg
+repository: DawnPaladin/blog
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
@@ -56,8 +58,24 @@ exclude:
   - vendor/ruby/
   - package.json
 
-comments: true
+comments:
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"
+    endpoint: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
 
 staticman_url: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
 
 excerpt_separator: <!-- cut -->
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      comments: true
+      layout: single
+
+include:
+  - _pages

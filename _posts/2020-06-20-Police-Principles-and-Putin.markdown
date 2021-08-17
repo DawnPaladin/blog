@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Police, Principles, and Putin"
 comments: true
 ---

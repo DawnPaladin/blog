@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Infrastructure hardening: File syncing"
 comments: true
 ---

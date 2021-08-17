@@ -1,10 +1,14 @@
 ---
-layout: post
 title: "Infrastructure hardening: Password vault"
 comments: true
+toc: true
+toc_sticky: true
+toc_label: "Table of Contents"
 ---
 
 _Part of my series on [hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
+
+## Introduction
 
 Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Designing good habits for myself"
 comments: true
 ---

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: "Three kinds of toughness"
 comments: false
 ---

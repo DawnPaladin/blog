@@ -1,5 +1,6 @@
 ---
-layout: post
+categories:
+  - blog
 title: "Infrastructure hardening: Cheap, effortless backups"
 comments: true
 ---
