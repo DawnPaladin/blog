@@ -1,13 +1,10 @@
 ---
-categories:
-  - blog
 title: "Infrastructure hardening: Cheap, effortless backups"
 comments: true
+tags: guides hardened-infrastructure
 ---
 
 The best antidote to fear is having a plan. Let's make a plan for what would happen to your files if your house burned down. We want to be as certain as anything can be in life that no matter what happens, your files cannot be lost.
-
-<!-- cut -->
 
 I used to use a product called CrashPlan for my backups. Then one day CrashPlan decided the market for home backups wasn't profitable anymore and they were working exclusively with businesses now. I researched a bunch of alternatives, and today I will share the results with you.
 

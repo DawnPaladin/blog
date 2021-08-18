@@ -7,66 +7,65 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: Toward Sunrise
-email: james@jamesharris.design
-author: James Harris
+email: james.harris@hey.com
 description: >- # this means to ignore newlines until "baseurl:"
   Making the world brighter
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://jamesharris.design" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
-github_username:  dawnpaladin
-og_image: /assets/cover.jpg
-repository: DawnPaladin/blog
+github_username: DawnPaladin
+minimal_mistakes_skin: default
+repository: DawnPaladin/mm-blog
+og_image: /assets/images/cover.jpg
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 50 # amount of posts to show
+paginate_path: /page:num/
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - .vscode/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - package.json
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
-comments:
-  provider: "staticman_v2"
-  staticman:
-    branch: "master"
-    endpoint: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
-staticman_url: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
-
-excerpt_separator: <!-- cut -->
+author:
+  name   : "James Harris"
+  avatar : "/assets/images/bio-photo.png"
+  bio    : "I tackle complex concepts and make them easy to understand."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://jamesharris.design"
+    - label: "Mastodon"
+      icon: "fas fa-fw fa-mastodon"
+      url: "https://toot.cafe/@DawnPaladin"
 
 defaults:
   # _posts
@@ -74,8 +73,29 @@ defaults:
       path: ""
       type: posts
     values:
-      comments: true
       layout: single
+      author_profile: true
+      read_time: false
+      comments: true
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
-include:
-  - _pages
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+comments:
+  provider: "staticman_v2"
+  staticman:
+    branch: "master"
+    endpoint: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments

@@ -1,11 +1,10 @@
 ---
 title: "Community and COVID-19"
 comments: true
+tags: memes disasters hope
 ---
 
 The apocalypse is here, and it isn't that bad.
-
-<!-- cut -->
 
 COVID-19 is officially a global pandemic. Local and federal governments have declared a state of emergency and asked citizens to self-quarantine. Schools and offices are getting a crash course in working remotely.
 

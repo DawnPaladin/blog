@@ -6,22 +6,6 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// @import "comment-styles";
-
-// .comments {
-// }
-
-// .site-footer .mailchimp-signup #mc_embed_signup {
-// 	form {
-// 		padding: 0 0 0 15px;
-// 		border-left: 1px solid silver;
-// 		background-color: #fdfdfd;
-// 	}
-// 	label {
-// 		font-weight: normal;
-// 	}
-// }
-
 .meme {
 	width: 70%;
 	margin: 0 auto 3em auto;

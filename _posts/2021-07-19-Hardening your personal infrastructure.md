@@ -1,14 +1,12 @@
 ---
-
 title: "Hardening your personal infrastructure"
 comments: true
+tags: hardened-infrastructure
 ---
 
 Now that my family is vaccinated, I'm reflecting on what to learn from the COVID-19 pandemic. The most obvious lesson is not to be complacent: things can change in a hurry.
 
 This will not be the last international disaster I face during my lifetime, I am sure. So now that things have calmed down, it's a good idea to think about how to prepare for the next big disruption, which I am assuming will not be another pandemic, but something different and unexpected.
-
-<!-- cut -->
 
 In particular, I'm thinking about how I use my computers. Like most people, I've adopted a number of cloud services that help me run my day-to-day life, like GMail, Dropbox, Workflowy, and YouTube Music. Cloud services have some big advantages:
 - You can use them from anywhere you have an internet connection
