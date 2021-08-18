@@ -28,4 +28,4 @@ So as I ditch various cloud services and set up alternatives that I have more co
 
 ## Posts in this series
 
-- [File syncing](/blog/2021/07/20/Hardened-file-syncing.html)
+- [File syncing](/blog/Hardened-file-syncing.html)

@@ -8,11 +8,11 @@ excerpt: A complete guide to setting up your very own password vault.
 tags: guides hardened-infrastructure
 ---
 
-_Part of my series on [hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
+_Part of my series on [hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
 
 ## Introduction
 
-Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
+Now that you can [securely synchronize information between your computers](/blog/Hardened-file-syncing.html), let's build something on top of that!
 
 Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness--it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
 
@@ -108,7 +108,7 @@ Click the extension in your browser toolbar, then click "Settings". On the Setti
 
 Now we're going to set up your password vault on your phone.
 
-First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/2021/07/20/Hardened-file-syncing.html).
+First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/Hardened-file-syncing.html).
 
 Next, if you have an Android phone, click [this link](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) to install KeePassDX, another fork of KeePass. I don't have an iPhone, but there are a number of iPhone apps available from [KeePass' website](https://keepass.info/download.html); pick one that looks good to you. (If you find one you like, please comment and I'll add it to this guide.)
 

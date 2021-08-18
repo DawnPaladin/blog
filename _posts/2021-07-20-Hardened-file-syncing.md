@@ -5,7 +5,7 @@ excerpt: The first thing you're probably going to want is a way to auto-synchron
 tags: guides hardened-infrastructure
 ---
 
-_Previously in this series: [Hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html)_
+_Previously in this series: [Hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure.html)_
 
 The first thing you're probably going to want is a way to auto-synchronize files between computers; once you have that, we can build a few things on top of it.
 
