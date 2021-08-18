@@ -1,0 +1,23 @@
+---
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.mailchimp-signup {
+	form {
+		padding: 0;
+	}
+	input {
+		max-width: 300px;
+	}
+}
+
+.meme {
+	width: 70%;
+	margin: 0 auto 3em auto;
+	display: block;
+	box-shadow: 5px 5px 10px gray;
+}

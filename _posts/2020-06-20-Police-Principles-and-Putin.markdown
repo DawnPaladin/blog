@@ -1,12 +1,10 @@
 ---
-layout: post
 title: "Police, Principles, and Putin"
 comments: true
+tags: memes
 ---
 
 I spent almost 10 years of my childhood in Russia. Russia is kind of a different planet than the United States.
-
-<!-- cut -->
 
 In the US we have an understanding that, *at least in theory,* the government exists to enforce justice. We expect that when a government official is publicly caught embezzling money or abusing their power, they will be fired, prosecuted, and replaced. That's a big part of why we have a government in the first place: safeguarding justice by prosecuting criminals.
 

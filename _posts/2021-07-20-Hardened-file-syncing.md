@@ -1,14 +1,13 @@
 ---
-layout: post
 title: "Infrastructure hardening: File syncing"
 comments: true
+excerpt: The first thing you're probably going to want is a way to auto-synchronize files between computers; once you have that, we can build a few things on top of it.
+tags: guides hardened-infrastructure
 ---
 
 _Previously in this series: [Hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html)_
 
 The first thing you're probably going to want is a way to auto-synchronize files between computers; once you have that, we can build a few things on top of it.
-
-<!-- cut -->
 
 Lots of my friends use Dropbox, Google Drive, or Onedrive to sync files between their computers. This has a few advantages, but the big downside is that the amount of "cloud storage" you get is limited. I'm going to walk you through setting a program called [SyncThing](https://syncthing.net/), which will sync as much data as you want between any computers you want, including phones.
 

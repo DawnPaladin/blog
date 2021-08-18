@@ -1,12 +1,9 @@
 ---
-layout: post
 title: "Three kinds of toughness"
 comments: false
 ---
 
 I know of three kinds of toughness -- three ways of dealing with the hurts life sends our way.
-
-<!-- cut -->
 
 The first way is to externalize it -- offload it onto other people. When someone hits you, hit them back twice as hard -- and if you can't hit them, hit somebody else. If the world is afraid of you, it will hurt you less, is the idea. The downside is that you hurt a lot of innocent people, and you make it very difficult for people to tell you about things that hurt. This makes real intimacy impossible and puts you in a position of being constantly blindsided by things that people were too intimidated to warn you about.
 

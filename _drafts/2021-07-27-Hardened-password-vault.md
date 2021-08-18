@@ -1,14 +1,18 @@
 ---
-layout: post
 title: "Infrastructure hardening: Password vault"
 comments: true
+toc: true
+toc_sticky: true
+toc_label: "Table of Contents"
+excerpt: A complete guide to setting up your very own password vault.
+tags: guides hardened-infrastructure
 ---
 
 _Part of my series on [hardening your personal infrastructure](/blog/2021/07/19/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
 
-Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
+## Introduction
 
-<!-- cut -->
+Now that you can [securely synchronize information between your computers](/blog/2021/07/20/Hardened-file-syncing.html), let's build something on top of that!
 
 Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness--it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
 
