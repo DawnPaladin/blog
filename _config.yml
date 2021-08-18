@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "James Harris"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "I tackle complex concepts and make them easy to understand."
+  bio    : "I tackle complex concepts and make them easy to understand. Email: james.harris@hey.com"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -74,7 +74,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
       share: false
