@@ -59,14 +59,6 @@ plugins:
 author:
   name   : "James Harris"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "I tackle complex concepts and make them easy to understand. Email: james.harris@hey.com"
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://jamesharris.design"
-    - label: "Mastodon"
-      icon: "fas fa-fw fa-link"
-      url: "https://toot.cafe/@DawnPaladin"
 
 defaults:
   # _posts
@@ -75,7 +67,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: true
       share: false
