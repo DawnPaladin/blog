@@ -91,4 +91,4 @@ comments:
   provider: "staticman_v2"
   staticman:
     branch: "master"
-    endpoint: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments
+    endpoint: https://dawnpaladin-staticman.herokuapp.com/v2/entry/DawnPaladin/blog/master/comments/
