@@ -19,7 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Making the world brighter
 github_username: DawnPaladin
 minimal_mistakes_skin: default
-repository: DawnPaladin/mm-blog
+repository: DawnPaladin/blog
+baseurl: /blog
 og_image: /assets/images/cover.jpg
 
 # Build settings

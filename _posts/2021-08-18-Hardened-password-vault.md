@@ -6,17 +6,18 @@ toc_sticky: true
 toc_label: "Table of Contents"
 excerpt: A complete guide to setting up your very own password vault.
 tags: guides hardened-infrastructure
+date: 2021-08-18
 ---
 
-_Part of my series on [hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure.html). A guide for Windows, MacOS, and Android._
+_Part of my series on [hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure). A guide for Windows, MacOS, and Android._
 
 ## Introduction
 
-Now that you can [securely synchronize information between your computers](/blog/Hardened-file-syncing.html), let's build something on top of that!
+Now that you can [securely synchronize information between your computers](/blog/Hardened-file-syncing), let's build something on top of that!
 
 Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness--it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
 
-<img class="meme" src="{{ '/assets/2021-07-27/passwords-meme.jpg' | absolute_url }}" alt='She-Ra meme. Old and broken: Guessing passwords. New and cool: Stealing passwords.' />
+<img class="meme" src="{{ '/assets/2021-08-18/passwords-meme.jpg' | absolute_url }}" alt='She-Ra meme. Old and broken: Guessing passwords. New and cool: Stealing passwords.' />
 
 Most people have a small number of passwords that they reuse across a bunch of websites. So now that the hacker has your username and password for one site, they'll try that combination on a bunch of other sites to see what they can get into. Sometimes people will add small variations to the password, like adding "boa" to their Bank of America password; those usually aren't too hard to guess, because if they were, they'd be hard to remember. Exploiting password reuse in this way is called "credential stuffing", and it's now the dominant paradigm for breaking into people's accounts.
 
@@ -50,7 +51,7 @@ Next KeePass will ask where to store your password database. This is up to you; 
 
 Now we need to help KeePass figure out how to interpret the CSV file. A CSV file is basically a bunch of rows and columns, like a spreadsheet. KeePass needs to know which column has the usernames in it, which one has the passwords, and so forth.
 
-<img class="photo" src="{{'/assets/2021-07-27/import-csv.png' | absolute_url }}" alt="KeePassXC's Import CSV Fields screen" />
+<img class="photo" src="{{'/assets/2021-08-18/import-csv.png' | absolute_url }}" alt="KeePassXC's Import CSV Fields screen" />
 
 The first thing to check is whether your CSV file puts field names in the first row. Cast your eye upon the "Preview" section in the bottom half of the screen. Does row 1 have things like "TITLE", "USERNAME", "PASSWORD" in it? If so, you need to check the box that says "First line has field names". (If your CSV file is large, it may take a few seconds for KeePass to reprocess it.)
 
@@ -91,16 +92,16 @@ KeePassXC offers a browser extension that will autofill passwords on websites fo
 2. Click "Browser Integration" on the left.
 3. Check the box that says "Enable browser integration".
 4. Check the box(es) for the browser(s) you use. Then click the link(s) corresponding to the browser(s) you use; this will take you to a page where you can install each browser extension. Click OK.
-<img src="{{'/assets/2021-07-27/browser-integration.png' | absolute_url }}" alt="KeePassXC browser integration window" />
+<img src="{{'/assets/2021-08-18/browser-integration.png' | absolute_url }}" alt="KeePassXC browser integration window" />
 5. Once you've clicked OK in KeePass and installed the browser extension, click its toolbar button to open it, then click "Connect". (If this doesn't work, try restarting your browser.)
-<img src="{{'/assets/2021-07-27/connect-firefox.png' | absolute_url }}" alt="Connecting the KeePassXC browser extension" />
+<img src="{{'/assets/2021-08-18/connect-firefox.png' | absolute_url }}" alt="Connecting the KeePassXC browser extension" />
 6. KeePass will ask you to name the connection. Type in the name of your browser.
 
 Let's change some settings that will make things easier for us later. First, open the KeePass Browser Integration Settings window again, as you did in steps 1 and 2 above. Click the "Advanced" tab. Check the box that says "Never ask before accessing credentials". If you don't do this, KeePass will pop up a "Browser Access Request" window every time it has a password to offer you, which is annoying.
 
 Now let's go look at the settings for the browser extension.
 
-<img class="photo" src="{{'/assets/2021-07-27/firefox-settings.png' | absolute_url }}" alt="KeePassXC's browser extension" />
+<img class="photo" src="{{'/assets/2021-08-18/firefox-settings.png' | absolute_url }}" alt="KeePassXC's browser extension" />
 
 Click the extension in your browser toolbar, then click "Settings". On the Settings screen, check the "Activate password generator icons" box. This will make it easier for us to generate passwords later.
 
@@ -137,13 +138,13 @@ If the browser extension isn't working, make sure that KeePassXC is open and you
 
 ### Creating a new password
 
-<img class="photo" src="{{'/assets/2021-07-27/password-generation.png' | absolute_url }}" alt="Screenshot: signing up for a Discourse account" />
+<img class="photo" src="{{'/assets/2021-08-18/password-generation.png' | absolute_url }}" alt="Screenshot: signing up for a Discourse account" />
 
 So here I am on a new website; it's asking me to come up with a new password. After filling in my email address and preferred username, I click the green key icon in the password field, and the browser extension generates a password for me!
 
 Click "Copy" to copy the password to your clipboard, then click "Fill password" to have the browser extension fill it into the password field. Then click "Create new account". On the next screen, you should see a banner like this one:
 
-<img src="{{'/assets/2021-07-27/banner.png' | absolute_url }}" alt="KeePassXC browser extension banner" />
+<img src="{{'/assets/2021-08-18/banner.png' | absolute_url }}" alt="KeePassXC browser extension banner" />
 
 KeePassXC shows this banner when it detects that you're trying to create or update a password. Unfortunately this detection is not perfect; if KeePassXC misses a password, you'll need to open the app and add it there (see below). (This is why we clicked "Copy" a minute ago--if KeePassXC neglected to capture the password and we didn't have it on our clipboard, we'd need to go through the site's password-reset process. Instead we can just open KeePassXC, click "New", and paste the password in from our clipboard.) 
 
@@ -151,7 +152,7 @@ Since the banner showed up, all we have to do is click the green "New" button an
 
 ### Logging in
 
-<img src="{{'/assets/2021-07-27/login.png' | absolute_url }}" alt="Logging into a website" />
+<img src="{{'/assets/2021-08-18/login.png' | absolute_url }}" alt="Logging into a website" />
 
 Now that you've added an entry to your password vault, logging into this site will be super easy. Just click the green password icon in the "User" field; KeePassXC will autofill your username and password. You can click "Log in" and be on your way.
 
@@ -161,9 +162,9 @@ Now that you've added an entry to your password vault, logging into this site wi
 
 If the browser extension misses a password, here's how to add it to your vault. Open KeePassXC and click the New button in the toolbar (or press Ctrl-N).
 
-<img src="{{'/assets/2021-07-27/toolbar.png' | absolute_url }}" alt="KeePassXC toolbar" />
+<img src="{{'/assets/2021-08-18/toolbar.png' | absolute_url }}" alt="KeePassXC toolbar" />
 
-<img src="{{'/assets/2021-07-27/new-password.png' | absolute_url }}" alt="KeePassXC new password screen" />
+<img src="{{'/assets/2021-08-18/new-password.png' | absolute_url }}" alt="KeePassXC new password screen" />
 
 Fill in the form. All of the fields are optional. You can have KeePass generate a random password for you by clicking the the icon on the right side of the password field that looks like one of the dice from Monopoly. Don't forget to fill in the URL field; KeePassXC needs that so it can autofill your password in the browser. When you're done, click OK.
 
@@ -177,7 +178,7 @@ KeePassXC also has an "Auto-Type" feature that will fill in your username and pa
 
 When you're browsing the web on your phone, and you tap in a password field, you'll get an autofill bubble above your keyboard, like so:
 
-<img src="{{'/assets/2021-07-27/phone-keyboard.jpg' | absolute_url }}" alt="KeePassDX autofill" />
+<img src="{{'/assets/2021-08-18/phone-keyboard.jpg' | absolute_url }}" alt="KeePassDX autofill" />
 
 Tap the bubble and KeePassDX will autofill your username and password. Easy as that.
 

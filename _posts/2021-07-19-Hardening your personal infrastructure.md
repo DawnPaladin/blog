@@ -2,6 +2,7 @@
 title: "Hardening your personal infrastructure"
 comments: true
 tags: hardened-infrastructure
+last_modified_at: 2021-08-18
 ---
 
 Now that my family is vaccinated, I'm reflecting on what to learn from the COVID-19 pandemic. The most obvious lesson is not to be complacent: things can change in a hurry.
@@ -28,4 +29,5 @@ So as I ditch various cloud services and set up alternatives that I have more co
 
 ## Posts in this series
 
-- [File syncing](/blog/Hardened-file-syncing.html)
+- [File syncing](/blog/Hardened-file-syncing)
+- [Password vault](/blog/Hardened-password-vault)
