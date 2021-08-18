@@ -5,3 +5,13 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+hardened-infrastructure:
+  - title: "Series: Hardening your personal infrastructure"
+    children:
+    - title: "Introduction"
+      url: Hardening-your-personal-infrastructure
+    - title: "File syncing"
+      url: Hardened-file-syncing
+    - title: "Password vault"
+      url: Hardened-password-vault

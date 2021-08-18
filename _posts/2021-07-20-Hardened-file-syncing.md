@@ -3,6 +3,8 @@ title: "Infrastructure hardening: File syncing"
 comments: true
 excerpt: The first thing you're probably going to want is a way to auto-synchronize files between computers; once you have that, we can build a few things on top of it.
 tags: guides hardened-infrastructure
+sidebar:
+  nav: "hardened-infrastructure"
 ---
 
 _Previously in this series: [Hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure)_

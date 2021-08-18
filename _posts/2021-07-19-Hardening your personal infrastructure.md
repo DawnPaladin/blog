@@ -3,6 +3,8 @@ title: "Hardening your personal infrastructure"
 comments: true
 tags: hardened-infrastructure
 last_modified_at: 2021-08-18
+sidebar:
+  nav: "hardened-infrastructure"
 ---
 
 Now that my family is vaccinated, I'm reflecting on what to learn from the COVID-19 pandemic. The most obvious lesson is not to be complacent: things can change in a hurry.

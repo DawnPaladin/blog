@@ -1,12 +1,14 @@
 ---
 title: "Infrastructure hardening: Password vault"
+date: 2021-08-18
 comments: true
 toc: true
 toc_sticky: true
 toc_label: "Table of Contents"
 excerpt: A complete guide to setting up your very own password vault.
 tags: guides hardened-infrastructure
-date: 2021-08-18
+sidebar:
+  nav: "hardened-infrastructure"
 ---
 
 _Part of my series on [hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure). A guide for Windows, MacOS, and Android._
