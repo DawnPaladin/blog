@@ -111,7 +111,7 @@ Click the extension in your browser toolbar, then click "Settings". On the Setti
 
 Now we're going to set up your password vault on your phone.
 
-First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/Hardened-file-syncing.html).
+First, make sure your database is in a folder that's being synced to your phone with Syncthing [as discussed in my last post](/blog/Hardened-file-syncing/).
 
 Next, if you have an Android phone, click [this link](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) to install KeePassDX, another fork of KeePass. I don't have an iPhone, but there are a number of iPhone apps available from [KeePass' website](https://keepass.info/download.html); pick one that looks good to you. (If you find one you like, please comment and I'll add it to this guide.)
 
