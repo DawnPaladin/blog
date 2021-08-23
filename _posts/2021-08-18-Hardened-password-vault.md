@@ -43,7 +43,9 @@ Download KeePassXC from [the download page](https://keepassxc.org/download/). If
 
 ### Importing passwords from another program
 
-Before we proceed, if you already have passwords stored somewhere, whether it's in another password manager or your browser, you'll need to export those so we can load them into KeePass. The format you'll want to put them in is called CSV (short for "comma-separated value"); it's a universal interchange format supported by pretty much everything. Go wherever your passwords are stored and export them as a CSV file. [Here's how to do that in Google Chrome](https://winaero.com/how-to-export-and-import-passwords-from-csv-file-in-google-chrome/); you can find tutorials for other programs by googling the name of the program and "export passwords to csv".
+Before we proceed, if you already have passwords stored somewhere, whether it's in another password manager or your browser, you'll need to export those so we can load them into KeePass. (If you don't have your passwords stored somewhere, [skip to the next section.](#starting-from-scratch))
+
+The format you'll want to export your passwords in is called CSV (short for "comma-separated value"); it's a universal interchange format supported by pretty much everything. Go wherever your passwords are stored and export them as a CSV file. [Here's how to do that in Google Chrome](https://winaero.com/how-to-export-and-import-passwords-from-csv-file-in-google-chrome/); you can find tutorials for other programs by googling the name of the program and "export passwords to csv".
 
 Got your CSV file? Good. In KeePassXC, click "Import from CSV" and open your CSV file. Give your database a name ("Passwords" is fine) and click "Continue" twice.
 
