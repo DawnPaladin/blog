@@ -33,3 +33,4 @@ So as I ditch various cloud services and set up alternatives that I have more co
 
 - [File syncing](/blog/Hardened-file-syncing)
 - [Password vault](/blog/Hardened-password-vault)
+- More to come. [Subscribe via email](https://us17.campaign-archive.com/home/?u=de4bf90cba33682650d14d747&id=6e5b78ac2c) or [RSS](https://jamesharris.design/blog/feed.xml) to be notified when a new post comes out!
