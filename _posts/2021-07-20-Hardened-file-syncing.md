@@ -60,6 +60,6 @@ The folder should now appear in the Folders list, and its status should say "Syn
 - Making your music library available across all your computers and your phone (I'll do a post about how I do that)
 - Sharing a library of movies with your family, whether or not you live in the same home
 - Working on a project across multiple computers
-- Keeping all of your passwords in an encrypted vault that lives on all your computers, and only those computers (another future post)
+- [Keeping all of your passwords in an encrypted vault](/blog/Hardened-password-vault) that lives on all your computers, and only those computers
 
 I hope this tutorial helps someone. I hesitate to offer the internet unlimited tech support for Syncthing, but if you get stuck following this tutorial, leave a comment and I'll help if I can.
