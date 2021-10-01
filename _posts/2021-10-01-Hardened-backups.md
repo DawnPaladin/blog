@@ -1,10 +1,17 @@
 ---
 title: "Infrastructure hardening: Cheap, effortless backups"
+date: 2021-10-01
 comments: true
-tags: guides hardened-infrastructure
 toc: true
 toc_sticky: true
+toc_label: Table of Contents
+excerpt: The best antidote to fear is having a plan. Let's make a plan for what would happen to your files if your house burned down.
+tags: guides hardened-infrastructure
+sidebar:
+  nav: "hardened-infrastructure"
 ---
+
+_Part of my series on [hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure). A guide for Windows and MacOS._
 
 ## Introduction
 
@@ -18,7 +25,7 @@ As I searched for a CrashPlan replacement, I had three main requirements in mind
 2. **Versioned backups.** Gone are the days when a virus would be content to erase your hard drive. These days we have ransomware, which encrypts your files so you can't open them, lurks insidiously for weeks or months, and then demands thousands of dollars in exchange for the decryption key. If you only have one backup copy, and you back up the encrypted files, your backups are worthless. To defend against ransomware, your backup system needs to maintain several versions so you can be assured of having a good one.
 3. **Low cost.** Backups aren't *that* complicated. This is an important service, and we want it done right, but whatever the monthly bill is, we're going to be spending that money every month *forever.* Let's get the bill as low as we can.
 
-This wasn't on my original requirements list, but the solution I found had a fourth benefit: **Independence.** The most important pieces of this system will be owned by us. Someday another company will send us an email that says <a class="vader-voice" href="../Hardening-your-personal-infrastructure">"I am altering the deal."</a> When that day comes, we will say, "Fine. See ya!", kick them to the curb, and switch to another provider in minutes. That kind of freedom is what hardened infrastructure is all about.
+This wasn't on my original requirements list, but the solution I found had a fourth benefit: **Independence.** The most important pieces of this system will be owned by us. Someday another company will send us an email that says <span class="vader-voice">"I am altering the deal."</span> When that day comes, we will say, "Fine. See ya!", kick them to the curb, and switch to another provider in minutes. That kind of freedom is what hardened infrastructure is all about.
 
 <style>
 	.vader-voice {

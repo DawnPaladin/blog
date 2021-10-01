@@ -15,3 +15,5 @@ hardened-infrastructure:
       url: Hardened-file-syncing
     - title: "Password vault"
       url: Hardened-password-vault
+    - title: "Backups"
+      url: Hardened-backups
