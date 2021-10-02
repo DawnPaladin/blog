@@ -19,7 +19,7 @@ The best antidote to fear is having a plan. Let's make a plan for what would hap
 
 I used to use a product called CrashPlan for my backups. Then one day CrashPlan decided the market for home backups wasn't profitable anymore and they were working exclusively with businesses now. I researched a bunch of alternatives, and today I will share that research with you.
 
-As I searched for a CrashPlan replacement, I had three main requirements in mind:
+As I searched for a better backup system, I had three main requirements in mind:
 
 1. **Effortless operation.** A backup plan that requires you to perform a chore every so often is no backup plan at all, because at some point your life will get busy, the least urgent thing (backups) will get neglected, and that will be when disaster strikes. You want something that will run 100% on automatic.
 2. **Versioned backups.** Gone are the days when a virus would be content to erase your hard drive. These days we have ransomware, which encrypts your files so you can't open them, lurks insidiously for weeks or months, and then demands thousands of dollars in exchange for the decryption key. If you only have one backup copy, and you back up the encrypted files, your backups are worthless. To defend against ransomware, your backup system needs to maintain several versions so you can be assured of having a good one.
@@ -57,9 +57,9 @@ Backblaze is the company that's going to store our files; start by [creating an 
 
 Once you have your account, you need to make a bucket. A bucket is just a container to hold a bunch of files in; I recommend creating one for each computer you need to back up. Go to the [buckets screen](https://secure.backblaze.com/b2_buckets.htm) and click "Create a bucket".
 
-<img class="photo" src="{{ '/assets/2021-09-26/create-a-bucket.png' | absolute_url }}" alt="Backblaze's 'Create a Bucket' screen" />
+<img class="photo" src="{{ '/assets/2021-10-01/create-a-bucket.png' | absolute_url }}" alt="Backblaze's 'Create a Bucket' screen" />
 
-Your bucket needs a name; I recommend naming it after your computer. What's that? Your computer doesn't have a name? Well, why not? Assuming you plan to ever have more than one computer over the course of your life, you _will_ need to uniquely identify each one to your backup software. A name like "HP Laptop #2" is going to become confusing at some point. My recommendation: think about your computer's traits, then think of a character (either real-life or from fiction) that reminds you of those traits. For example, my Macbook is attractive, powerful, and wants to make all of my decisions for me, so I named it after Starlight Glimmer from _Friendship is Magic._ Think of a name. Any name. Then put it in the Bucket Name field.
+Your bucket needs a name; I recommend naming it after your computer. What's that? Your computer doesn't have a name? Well, why not? Assuming you plan to have more than one computer over the course of your life, you _will_ need to uniquely identify each one to your backup software. A name like "HP Laptop #2" is going to become confusing at some point. My recommendation: think about your computer's traits, then think of a character (either real-life or from fiction) that reminds you of those traits. For example, my Macbook is attractive, powerful, and wants to make all of my decisions for me, so I named it after Starlight Glimmer from _Friendship is Magic._ Think of a name. Any name. Then put it in the Bucket Name field.
 
 All of the other defaults are fine. You don't need Backblaze to encrypt the data because we're going to do it on our end; that way there's no possibility of anyone reading our backups. Click "Create a Bucket".
 
@@ -67,15 +67,21 @@ All of the other defaults are fine. You don't need Backblaze to encrypt the data
 
 You have a bucket; now you need an application key. This is a security credential that Duplicati needs to access your account. Click "App keys" on the left.
 
-<img class="photo" src="{{ '/assets/2021-09-26/app-keys.png' | absolute_url }}" alt="Backblaze's 'Application Keys' screen" />
+<a href="{{ '/assets/2021-10-01/app-keys.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/app-keys.png' | absolute_url }}" alt="Backblaze's 'Application Keys' screen" />
+</a>
 
 At the top of the screen there's something called "Master Application Key". You don't want that one; that's a skeleton key for your whole account. A general principle of good computer security is not to give any program more permissions that it needs; we want each computer to just have access to its own bucket. Click "Add a New Application Key".
 
-<img class="photo" src="{{ '/assets/2021-09-26/add-app-key.png' | absolute_url }}" alt="Backblaze's 'Add Application Key' screen" />
+<a href="{{ '/assets/2021-10-01/add-app-key.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/add-app-key.png' | absolute_url }}" alt="Backblaze's 'Add Application Key' screen" />
+</a>
 
 Name the key after the computer it's backing up. There's a dropdown menu asking which buckets the key should grant access to; select the bucket you just created. All of the other defaults are fine. Click "Create New Key".
 
-<img class="photo" src="{{ '/assets/2021-09-26/new-app-key.png' | absolute_url }}" alt="Backblaze shows a new application key" />
+<a href="{{ '/assets/2021-10-01/new-app-key.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/new-app-key.png' | absolute_url }}" alt="Backblaze shows a new application key" />
+</a>
 
 Now you have an application key. This has three pieces:
 - the keyName, which is just a nickname for your convenience
@@ -96,7 +102,9 @@ Once Duplicati is installed, open it. Click "Add backup", then "Next".
 
 ### Step 1: General backup settings
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-step-1.png' | absolute_url }}" alt="Duplicati's 'General' screen" />
+<a href="{{ '/assets/2021-10-01/duplicati-step-1.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-step-1.png' | absolute_url }}" alt="Duplicati's 'General' screen" />
+</a>
 
 Name your backup job after your computer, same as you did with the application key. Encryption should be set to "AES-256, built in"; this is extremely strong military-grade encryption. Click "Generate" to create a password. 
 
@@ -110,11 +118,15 @@ This is where we teach Duplicati to talk to Backblaze.
 
 First, open the "Storage type" dropdown. Duplicati can send files to a _lot_ of places; look in the "Proprietary" section and select "B2 Cloud Storage".
 
-<img class="photo" src="{{ '/assets/2021-09-26/backup-destination.png' | absolute_url }}" alt="Set backup destination to Backblaze" />
+<a href="{{ '/assets/2021-10-01/backup-destination.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/backup-destination.png' | absolute_url }}" alt="Set backup destination to Backblaze" />
+</a>
 
 Now you need to enter the bucket name, applicationID, and applicationKey you set up in the ["Setting up Backblaze"](#setting-up-backblaze) section.
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-step-2.png' | absolute_url }}" alt="Duplicati's 'backup destination' screen" />
+<a href="{{ '/assets/2021-10-01/duplicati-step-2.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-step-2.png' | absolute_url }}" alt="Duplicati's 'backup destination' screen" />
+</a>
 
 Click the "Test connection" button. After a few seconds, it should say "Connection worked"; if not, go back and check the bucket name, applicationID, and applicationKey. If necessary you can go back to Backblaze and make new ones.
 
@@ -124,7 +136,9 @@ Once you've verified that the connection works, click Next.
 
 This is where you decide which files you want to back up. Typically there's no point in backing up programs or your operating system; if something goes wrong it will be easier to reinstall those from discs or the internet. Mainly you want to back up everything _you've_ created: photos, documents, spreadsheets, and so forth, plus things like Music that would be hard to replace. On my Macbook, I'm just backing up my whole user folder, excluding Applications, Library, and Downloads.
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-step-3.png' | absolute_url }}" alt="Duplicati's 'source data' screen" />
+<a href="{{ '/assets/2021-10-01/duplicati-step-3.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-step-3.png' | absolute_url }}" alt="Duplicati's 'source data' screen" />
+</a>
 
 Hint: Look at the lower-right corner of the box where you select folders to back up, right above the "Add path" button. There's a small drag handle there; dragging it will let you make the box bigger. When you're done, click Next.
 
@@ -132,17 +146,23 @@ Hint: Look at the lower-right corner of the box where you select folders to back
 
 This is where you can change how often backups happen. The defaults are probably fine. Click Next.
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-step-4.png' | absolute_url }}" alt="Duplicati's 'schedule' screen" />
+<a href="{{ '/assets/2021-10-01/duplicati-step-4.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-step-4.png' | absolute_url }}" alt="Duplicati's 'schedule' screen" />
+</a>
 
 ### Step 5: Options
 
 In the [introduction](#introduction) I talked about versioned backups and how they protect against ransomware. By default, Duplicati keeps every version of every backup it makes. That's going to consume a lot of storage space and hence a lot of money. I recommend changing "Backup retention" to "Smart"; that's a good compromise that will offer excellent protection without costing too much.
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-step-5.png' | absolute_url }}" alt="Duplicati's 'options' screen" />
+<a href="{{ '/assets/2021-10-01/duplicati-step-5.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-step-5.png' | absolute_url }}" alt="Duplicati's 'options' screen" />
+</a>
 
 When you're done, click Save. Your backup job is ready to run!
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-job.png' | absolute_url }}" alt="Duplicati's backup job, ready to run" />
+<a href="{{ '/assets/2021-10-01/duplicati-job.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-job.png' | absolute_url }}" alt="Duplicati's backup job, ready to run" />
+</a>
 
 Click "Run now". This will probably take a few hours.
 
@@ -155,7 +175,7 @@ When I came back and looked at my backup job, it had a yellow box that said "Enc
 	width: 100%;
 }
 </style>
-<video controls class="screencast" src="{{ '/assets/2021-09-26/duplicati-warnings.webm' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
+<video controls class="screencast" src="{{ '/assets/2021-10-01/duplicati-warnings.webm' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
 
 It's pretty common that there will be system files that backup programs won't be able to access. This is fine. We should tell Duplicati not to bother backing these up; that will get rid of the warnings.
 
@@ -163,7 +183,7 @@ First, make a note of which files need to be excluded from your backup job. In m
 
 Click Home, then click on your backup job. Under "Configuration", click "Edit..." Then click "3. Source Data". Click "Exclude" and "Filters" to expand those sections.
 
-<video controls class="screencast" src="{{ '/assets/2021-09-26/duplicati-filters.m4v' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
+<video controls class="screencast" src="{{ '/assets/2021-10-01/duplicati-filters.m4v' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
 
 First let's look at the "Exclude" section. Duplicati has some built-in filters here for us; details are available in [the documentation](https://duplicati.readthedocs.io/en/latest/appendix-d-filters/). You should probably turn on the "Hidden files", "System files", and "Temporary files" filters unless you have a reason to want them off. (I use hidden files in my programming work, so I'm going to leave that filter off.)
 
@@ -171,7 +191,9 @@ Okay, let's go back up to the Filters section. I want to exclude my ".Trash" fol
 
 Now I have a filter that excludes ".Trash" folders. I'll do the same thing again to exclude ".photoslibrary" folders.
 
-<img class="photo" src="{{ '/assets/2021-09-26/duplicati-filters.png' | absolute_url }}" alt="Setting up filters in Duplicati" />
+<a href="{{ '/assets/2021-10-01/duplicati-filters.png' | absolute_url }}">
+	<img class="photo" src="{{ '/assets/2021-10-01/duplicati-filters.png' | absolute_url }}" alt="Setting up filters in Duplicati" />
+</a>
 
 Our filters are all set up. (The other three "Exclude folder" filters were created automatically when I deselected certain subfolders [when I was setting this job up](#step-3-source-data).) To save your filters, click Next, Next, and then Save. Then click Run Now. This won't take nearly as long as last time; Duplicati will just look for files that have changed, which probably isn't many.
 
@@ -183,7 +205,7 @@ You know what the worst feeling in the world is? Going into your backup system t
 
 So this last step is an important one. We're going to verify that our backups work.
 
-<video controls class="screencast" src="{{ '/assets/2021-09-26/restore.webm' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
+<video controls class="screencast" src="{{ '/assets/2021-10-01/restore.webm' | absolute_url }}" type="video/mp4">Can't play video. Please open this page in a recent browser.</video>
 
 Click Restore, then the name of your computer. Click Next. Duplicati will take a moment to go into your backups and retrieve a hierarchy of your files. Navigate through the folder structure and pick a file to restore, then click Continue.
 

@@ -7,7 +7,7 @@ main:
     url: /about/
 
 hardened-infrastructure:
-  - title: "Series: Hardening your personal infrastructure"
+  - title: "Series: infrastructure hardening"
     children:
     - title: "Introduction"
       url: Hardening-your-personal-infrastructure
