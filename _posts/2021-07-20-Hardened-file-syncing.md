@@ -5,6 +5,7 @@ excerpt: The first thing you're probably going to want is a way to auto-synchron
 tags: guides hardened-infrastructure
 sidebar:
   nav: "hardened-infrastructure"
+last_modified_at: 2021-10-03
 ---
 
 _Previously in this series: [Hardening your personal infrastructure](/blog/Hardening-your-personal-infrastructure)_
@@ -56,10 +57,12 @@ The folder should now appear in the Folders list, and its status should say "Syn
 
 ## Things this is useful for
 
-- Backing files up from one computer to another (although there are even better options available - more on that in a future post)
-- Making your music library available across all your computers and your phone (I'll do a post about how I do that)
+- Making your music library available across all your computers and your phone
 - Sharing a library of movies with your family, whether or not you live in the same home
 - Working on a project across multiple computers
-- [Keeping all of your passwords in an encrypted vault](/blog/Hardened-password-vault) that lives on all your computers, and only those computers
+- [Keeping all of your passwords in an encrypted vault](../Hardened-password-vault) that lives on all your computers, and only those computers
+- Backing files up from one computer to another (although you'd be better off with automatic versioned backups, as shown in [my backups guide](../Hardened-backups))
 
-I hope this tutorial helps someone. I hesitate to offer the internet unlimited tech support for Syncthing, but if you get stuck following this tutorial, leave a comment and I'll help if I can.
+Here's my favorite thing that I sync across my computers: [Obsidian](https://obsidian.md/) lets me treat a folder full of text files as a personal wiki. This is where I keep all of the little notes I need to run my day-to-day life (including my notes for future blog posts). It's like OneNote, but much more capable--it has all sorts of plugins available, you can attach any kind of file into it, and since all of the information is in plaintext or Markdown it will still be readable in a hundred years, long after OneNote no longer exists. 💛 Obsidian.
+
+Anyway, I hope this tutorial helps someone. I hesitate to offer the internet unlimited tech support for Syncthing, but if you get stuck following this tutorial, leave a comment and I'll help if I can.
