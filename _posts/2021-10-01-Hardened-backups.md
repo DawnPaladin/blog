@@ -45,9 +45,9 @@ My backup system has three components:
 
 Think about the difference between a smartphone and a desktop PC. Smartphones are usually very polished experiences; every part of them is vetted to work with every other part, and there's not much that can go wrong. But if something _does_ go seriously wrong, most phone components can't be repaired or swapped out; typically you have to replace the whole thing.
 
-Compare that to a desktop PC. PCs crash sometimes, and they can be harder to understand. That's because there's more _to_ understand--you can do a lot more on a PC than you can on a phone. And if part of your PC fails, or you want something better, you can buy a new part and slot it in for _much_ cheaper than the price of a new PC. I've been upgrading my computer a piece at a time for ten years now; in that time I've gone through more phones than I can remember. And the upgrades are usually seamless, whereas getting a new phone is a hassle.
+Compare that to a desktop PC. PCs crash sometimes, and they can be harder to understand. That's because there's more _to_ understand -- you can do a lot more on a PC than you can on a phone. And if part of your PC fails, or you want something better, you can buy a new part and slot it in for _much_ cheaper than the price of a new PC. I've been upgrading my computer a piece at a time for ten years now; in that time I've gone through more phones than I can remember. And the upgrades are usually seamless, whereas getting a new phone is a hassle.
 
-When you set up an important system that you plan to use for a long time, like a backup system, durability is important. Avoid solutions that promise to "do it all," "leave it to us," "we'll take care of you forever"--unless you think that company will keep its promises that long. Build it like a PC. Use interchangeable parts that are easily replaced. The more of the system you own and control, the fewer opportunities there are for companies to charge you rent and break your heart.
+When you set up an important system that you plan to use for a long time, like a backup system, durability is important. Avoid solutions that promise to "do it all," "leave it to us," "we'll take care of you forever" -- unless you think that company will keep its promises that long. Build it like a PC. Use interchangeable parts that are easily replaced. The more of the system you own and control, the fewer opportunities there are for companies to charge you rent and break your heart.
 
 ## Setting up Backblaze
 
@@ -90,7 +90,7 @@ Now you have an application key. This has three pieces:
 
 Copy and paste these somewhere convenient, like an empty text file - we're going to need them once we've set up Duplicati. If you have a [password vault](../Hardened-password-vault), that would be an excellent place to put them. 
 
-For security reasons, Backblaze will only show you this application key this one time--but it's always easy to make a new one. Just follow the steps above.
+For security reasons, Backblaze will only show you this application key this one time -- but it's always easy to make a new one. Just follow the steps above.
 
 Bucket, check. Key, check. Backblaze is all set; now it's time to set up Duplicati.
 
@@ -197,7 +197,7 @@ Now I have a filter that excludes ".Trash" folders. I'll do the same thing again
 
 Our filters are all set up. (The other three "Exclude folder" filters were created automatically when I deselected certain subfolders [when I was setting this job up](#step-3-source-data).) To save your filters, click Next, Next, and then Save. Then click Run Now. This won't take nearly as long as last time; Duplicati will just look for files that have changed, which probably isn't many.
 
-Wait for your backup to finish. If it reports errors again, go back and edit your filters. You don't want to routinely see errors as part of your backups--if you do, you'll learn to ignore them, and then someday when you get a _real_ error and your backups stop working you won't know about it. Consult [the documentation](https://duplicati.readthedocs.io/en/latest/appendix-d-filters/) if you get stuck.
+Wait for your backup to finish. If it reports errors again, go back and edit your filters. You don't want to routinely see errors as part of your backups -- if you do, you'll learn to ignore them, and then someday when you get a _real_ error and your backups stop working you won't know about it. Consult [the documentation](https://duplicati.readthedocs.io/en/latest/appendix-d-filters/) if you get stuck.
 
 ## Testing your backups
 

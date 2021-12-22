@@ -17,7 +17,7 @@ _Part of my series on [hardening your personal infrastructure](/blog/Hardening-y
 
 Now that you can [securely synchronize information between your computers](/blog/Hardened-file-syncing), let's build something on top of that!
 
-Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness--it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
+Someday we will ascend beyond the need for passwords. Until that glorious day, the single best thing you can do to keep yourself safe online is to use different, random passwords for every website and keep them in a password vault. This is because in hacker land, guessing people's passwords is no longer the new hotness -- it's expensive and it doesn't scale. These days the cool hackers will just break into a site and steal their password database. 
 
 <img class="meme" src="{{ '/assets/2021-08-18/passwords-meme.jpg' | absolute_url }}" alt='She-Ra meme. Old and broken: Guessing passwords. New and cool: Stealing passwords.' />
 
@@ -29,7 +29,7 @@ The consensus among security researchers is that the best way for the average jo
 
 I looked at a lot of different password vaults as part of writing this. Obviously security is important for something like this, but so is ease-of-use, and I feel like not all developers get that. If using software the right way is hard, people will find a way that's easy, and it probably won't be secure; that's why people write passwords on sticky notes and reuse passwords across websites. So in writing this guide I'm trying to make everything as straightforward as I possibly can; if you get stuck, let me know in the comments and I'll see what I can do.
 
-I'm recommending **KeePassXC** for its ease-of-use, browser integration, and cross-platform compatibility. This is an open-source password vault [recommended by the Electronic Freedom Foundation](https://ssd.eff.org/en/module/how-use-keepassxc) that's actively maintained by volunteers who check each other's work. Importantly for our purposes, it doesn't use the cloud at all--the password vault is saved to a file on your hard drive, which we'll sync between our computers using Syncthing.
+I'm recommending **KeePassXC** for its ease-of-use, browser integration, and cross-platform compatibility. This is an open-source password vault [recommended by the Electronic Freedom Foundation](https://ssd.eff.org/en/module/how-use-keepassxc) that's actively maintained by volunteers who check each other's work. Importantly for our purposes, it doesn't use the cloud at all -- the password vault is saved to a file on your hard drive, which we'll sync between our computers using Syncthing.
 
 The best thing about this is that it's **yours forever.** No company going out of business can take away your password vault. KeePassXC is one of many "forks" (versions) of KeePass; they're maintained by different people and they all use the same file format. If you decide you don't like KeePassXC you can switch to a different fork of KeePass and your database will still work.
 
@@ -49,7 +49,7 @@ The format you'll want to export your passwords in is called CSV (short for "com
 
 Got your CSV file? Good. In KeePassXC, click "Import from CSV" and open your CSV file. Give your database a name ("Passwords" is fine) and click "Continue" twice.
 
-Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault--there is no backdoor and no recovery process. You'll need to type this password to unlock your password vault each time you turn on your computer, so don't make it so long that it's annoying to type in. I recommend that you write it down and keep it somewhere safe--a place where someone wouldn't get the password if they physically stole your computer. Then click Done.
+Now it's time to choose a master password for your vault. I recommend picking a favorite song lyric. [You don't need letters and numbers or any of that, just four to five words.](https://xkcd.com/936/) ("Passphrase" is perhaps a better term than "password", but old habits die hard.) Make sure it's something you'll remember; this password is the only way into your password vault -- there is no backdoor and no recovery process. You'll need to type this password to unlock your password vault each time you turn on your computer, so don't make it so long that it's annoying to type in. I recommend that you write it down and keep it somewhere safe -- a place where someone wouldn't get the password if they physically stole your computer. Then click Done.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
@@ -61,17 +61,17 @@ The first thing to check is whether your CSV file puts field names in the first 
 
 Now look at the "Column Association" area. Click the dropdown next to "Username" and it will give you a list of the columns in the CSV; pick the one that either says "USERNAME" or looks like it has a username in it. Next, click the Password dropdown, looking for either "PASSWORD" or something that looks like a password. Do the same for each other field; if you don't see a good fit, click "Not Present" at the top of the dropdown. As you go, keep an eye on the Preview area; you want the "Username" column to have usernames in it, the "Passwords" column to have passwords, and so forth.
 
-When you're done, click OK. If you did it right, you'll be looking at a password database with all your stuff in it! Spot-check a few items to make sure they've imported correctly, then **delete the CSV file.** That file has all of your passwords in it unencrypted--you don't want to leave it lying around.
+When you're done, click OK. If you did it right, you'll be looking at a password database with all your stuff in it! Spot-check a few items to make sure they've imported correctly, then **delete the CSV file.** That file has all of your passwords in it unencrypted -- you don't want to leave it lying around.
 
 ### Starting from scratch
 
 If you don't have all your passwords saved anywhere, you just have to create an empty database. Click "Create new database" and click Continue twice. 
 
-Your vault needs a master password; if there's a song lyric that often gets stuck in your head, that would be a good choice. I **don't** recommend putting letters and numbers in it; they make it harder to remember and harder to type, and if the password is at least four words long, [you don't need the extra security](https://xkcd.com/936/). The main thing is that you must be able to remember it--if you forget this password, there is no password reset, so your password vault is lost. You will need to type in this password to unlock your password vault whenever you restart your computer, so don't make it excessively long. You should write this password down and keep it somewhere separate from your computer so a computer thief isn't likely to get it.
+Your vault needs a master password; if there's a song lyric that often gets stuck in your head, that would be a good choice. I **don't** recommend putting letters and numbers in it; they make it harder to remember and harder to type, and if the password is at least four words long, [you don't need the extra security](https://xkcd.com/936/). The main thing is that you must be able to remember it -- if you forget this password, there is no password reset, so your password vault is lost. You will need to type in this password to unlock your password vault whenever you restart your computer, so don't make it excessively long. You should write this password down and keep it somewhere separate from your computer so a computer thief isn't likely to get it.
 
 Next KeePass will ask where to store your password database. This is up to you; I'm going to create a new folder called Sync to hold files I want to sync between computers. I'm naming my vault "Passwords.kdbx".
 
-Once you've saved your database, you should be seeing a folder named "Root" on the left and an empty listing on the right. Congratulations--you have a password database!
+Once you've saved your database, you should be seeing a folder named "Root" on the left and an empty listing on the right. Congratulations -- you have a password database!
 
 ### Setting up minimize to tray
 
@@ -150,7 +150,7 @@ Click "Copy" to copy the password to your clipboard, then click "Fill password" 
 
 <img src="{{'/assets/2021-08-18/banner.png' | absolute_url }}" alt="KeePassXC browser extension banner" />
 
-KeePassXC shows this banner when it detects that you're trying to create or update a password. Unfortunately this detection is not perfect; if KeePassXC misses a password, you'll need to open the app and add it there (see below). (This is why we clicked "Copy" a minute ago--if KeePassXC neglected to capture the password and we didn't have it on our clipboard, we'd need to go through the site's password-reset process. Instead we can just open KeePassXC, click "New", and paste the password in from our clipboard.) 
+KeePassXC shows this banner when it detects that you're trying to create or update a password. Unfortunately this detection is not perfect; if KeePassXC misses a password, you'll need to open the app and add it there (see below). (This is why we clicked "Copy" a minute ago -- if KeePassXC neglected to capture the password and we didn't have it on our clipboard, we'd need to go through the site's password-reset process. Instead we can just open KeePassXC, click "New", and paste the password in from our clipboard.) 
 
 Since the banner showed up, all we have to do is click the green "New" button and we're done. KeePassXC automatically creates a new entry in our password vault with everything filled out. (If you're changing a password for a site KeePass already knows about, click "Update" instead of "New".)
 
