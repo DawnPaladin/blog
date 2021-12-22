@@ -6,6 +6,27 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+	font-family: 'Lora', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, .masthead__inner-wrap, .sidebar p, .sidebar .author__name, .archive__item-title {
+	font-family: 'Lora', sans-serif;
+}
+
+/* page width */
+@media (min-width: 80em) {
+	.page {
+		width: calc(100% - 250px);
+		padding-right: 250px;
+	}
+	.sidebar {
+		width: calc(250px - 1em);
+	}
+}
+
 .mailchimp-signup {
 	form {
 		padding: 0;
