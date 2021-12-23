@@ -8,7 +8,7 @@ tags: book-report how-will-you-measure-your-life
 
 ## Introduction
 
-My friend Liana recently loaned me the book _How Will You Measure Your Life?_ by Clayton M. Christensen. Christensen (1952-2020) was one of the world's most influential economists; he popularized the principle of "disruptive innovation". In this book, he takes a number of principles and stories from the business world and shows how they have lessons for our personal lives. The book is divided into three sections: advice for your career, advice for being a parent, and staying out of jail.
+My friend Liana recently loaned me the book _How Will You Measure Your Life?_ by Clayton M. Christensen. Christensen (1952&ndash;2020) was one of the world's most influential economists; he popularized the principle of "disruptive innovation". In this book, he takes a number of principles and stories from the business world and shows how they have lessons for our personal lives. The book is divided into three sections: advice for your career, advice for being a parent, and staying out of jail.
 
 The book was written because all of his classmates had such promising starts as they graduated from Harvard together -- yet over the years, more and more of his classmates were disappointed by the outcomes of their careers and marriages; one even wound up in prison for his role in the Enron scandal. This shocked Christensen, who remembered his classmate being a decent person; something had clearly gone deeply wrong since his graduation.
 
@@ -42,7 +42,7 @@ The first spectrum depends on the **hygiene factors** that will make us unhappy 
 > 
 > This is an important insight from Herzberg's research: if you instantly improve the hygiene factors of your job, you're not going to suddenly love it. At best, you just won't _hate_ it anymore. The opposite of _job dissatisfaction_ isn't _job satisfaction_, but rather an _absence of job dissatisfaction_. They're not the same thing at all. It _is_ important to address hygiene factors such as a safe and comfortable working environment, relationships with managers and colleagues, enough money to look after your family -- if you don't have these things, you'll experience dissatisfaction with your work. But these alone won't do anything to make you love your job -- they will just stop you from hating it.
 
-Hygiene factors are like the things you have to get right when developing a video game but which no-one is likely to praise you for: things like the camera, loading times, and (usually) the controls. Your goal should be to get them to the point where they get out of the way of the things people actually enjoy, which we call **motivators.** Motivators include:
+Hygiene factors are like the things you have to get right when developing a video game but which no-one is likely to praise you for: things like the menus, camera, and loading times. Your goal should be to get them to the point where they get out of the way of the things people actually enjoy, which we call **motivators.** Motivators include:
 - challenging work
 - recognition
 - responsibility
@@ -60,15 +60,15 @@ This concept is instantly familiar to any seasoned gamer. Games specialize in th
 
 This is what the best kind of work is like. If money wasn't a problem -- if all your financial needs were taken care of -- what would you want to do? Games are fun, but you will get tired of them if that's all you do. What kind of work engages you and gets you into that state of flow where you're joyfully pushing the limits of your own capability?
 
-The question feels almost impossibly idealistic. The kinds of things we love doing best usually aren't the things people are paid well for. I love writing; my wife loves creating art with needle and brush; neither of these is known for paying well. Yet the vision of developing a skill we enjoy and working in a state of flow every day is too beautiful to discard. I treat it as a north star, sailing toward a goal I will never completely reach. But Motivator-Hygiene theory describes the goal very clearly: get a job that fulfills your motivators and doesn't trip your hygiene flags. And don't confuse one for the other.
+The question feels almost impossibly idealistic. The kinds of things we love doing best usually aren't the things people are paid well for. I love writing; my wife loves creating art with needle and brush; neither of these is known for paying well. Yet the vision of developing a skill we enjoy and working in a state of flow every day is too beautiful to discard. I treat it as a north star, sailing toward a goal I will never completely reach. But Motivator-Hygiene theory at least describes the goal clearly: get a job that fulfills your motivators and doesn't trip your hygiene flags. And don't confuse one for the other.
 
-Realistically, you probably won't be able to 100% both checklists; you will need to decide how much of each one you're willing to sacrifice to improve the other. In my case, writing full-time would satisfy my motivators well, but I don't think it would pay enough to sustain me. Front-end web development pays better, and its mix of creativity and abstract thought is also quite satisfying. I could earn more money by switching to back-end web development or artificial intelligence, but those fields aren't as visually creative; I don't think I would find them satisfying, so I'm sticking to front-end web development.
+Realistically, you probably won't be able to 100% both checklists; you will need to decide how much of each one you're willing to sacrifice to improve the other. In my case, writing full-time would satisfy my motivators well, but I don't think it would pay enough to sustain me. Front-end web development pays better, and its mix of creativity and abstract thought is also quite satisfying. I could earn more money by switching to back-end web development or artificial intelligence, but those fields aren't as visually creative; I don't think I would find them satisfying, so I'm sticking to front-end web dev.
 
 Much of this chapter warns against putting money first. The author has had lots of students who used hygiene factors to choose their careers. They figured they'd take care of money first, and once they had that covered they would pivot to something meaningful. This is a trap. As your salary goes up, typically your lifestyle does too. After all, why shouldn't you enjoy the fruits of your labor? But once you've paid off your student loans, provided a comfortable foundation for your family, and established a high-flying lifestyle, switching to a career that doesn't pay as well becomes really painful. Going from being rich but aimless to fulfilled but poor -- and taking your family with you -- is too difficult a leap for most people.
 
 > The point isn't that money is the root cause of personal unhappiness. It's not. The problems start occurring when it becomes the priority over all else, when hygiene factors are satisfied but the quest remains only to make more money.
 
-> ...The pursuit of money can, at best, mitigate the frustrations in your career -- yet the siren song of riches has confused and confounded some of the best in our society. In order to really find happiness, you need to continue looking for opportunities that you believe are meaningful, in which you will be able to **learn new things, to succeed, and be given more and more responsibility to shoulder.**
+> The pursuit of money can, at best, mitigate the frustrations in your career -- yet the siren song of riches has confused and confounded some of the best in our society. In order to really find happiness, you need to continue looking for opportunities that you believe are meaningful, in which you will be able to **learn new things, to succeed, and be given more and more responsibility to shoulder.**
 
 Christensen wouldn't put it in these terms, but he's talking about leveling up. The reason the leveling-up mechanic has spread from Dungeons & Dragons to the majority of modern gaming is because it's so deeply satisfying. You start doing something you're not very good at, you practice it, and you get better. This is _intrinsically_ rewarding: even if you're not getting paid for it, mastering something feels good. The best games have smooth progression curves: you learn new things and are given new challenges at just the right rate -- not too easy, not too hard. When we're asked to perform too far beyond our skill level or prevented from moving onto challenges we're ready for, work stops being rewarding.
 
@@ -84,3 +84,11 @@ Christensen summarizes:
 > - Am I going to be given responsibility?
 > 
 > These are the things that will truly motivate you. Once you get this right, the more measurable aspects of your job will fade in importance.
+
+If that feels like a lot, I leave you with these encouraging words from the vlogbrothers (3m47s).
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OCO8eoDWqHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+_Next post: The plan you start out with and the plan you discover along the way_
