@@ -5,7 +5,7 @@ excerpt: Good judgment, illustrated with memes
 tags: book-report how-will-you-measure-your-life
 ---
 
-*Note: This post is themed around chapter 3 of* How Will You Measure Your Life, *but it also contains information from other chapters, along with my own opinions. Any errors are probably mine.*
+*Note: This post is themed around chapter 3 of* [How Will You Measure Your Life](/blog/Rewarding-work/), *but it also contains information from other chapters, along with my own opinions. Any errors are probably mine.*
 
 What do all of these decisions have in common?
 

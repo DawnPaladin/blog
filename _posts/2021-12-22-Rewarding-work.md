@@ -91,4 +91,4 @@ If that feels like a lot, I leave you with these encouraging words from the vlog
 
 ---
 
-_Next post: The plan you start out with and the plan you discover along the way_
+_Next post: [The plan you start out with and the plan you discover along the way](/blog/Winning-lifes-great-gambles/)_
