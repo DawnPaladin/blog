@@ -24,7 +24,7 @@ Then you draw a new card, and everything changes. A possible new **emergent stra
 
 <img class="meme" src="{{ '/assets/2022-01-23/distracted-strategist.jpg' | absolute_url }}" alt="Distracted Boyfriend ignores 'Old deliberate strategy', instead staring after 'New emergent strategy'" />
 
-As with most things, the answer is *it depends.* Sometimes you should go for it, and sometimes you should stick to your guns; good judgement is knowing the difference. But there are some guidelines that can help you out.
+As with most things, the answer is *it depends.* Sometimes you should go for it, and sometimes you should stick to your guns; good judgment is knowing the difference. But there are some guidelines that can help you out.
 
 The **first** thing is to know what's out there. As a general rule, the very first option to come along is not going to be the best one. The people who say otherwise are usually dishonest salesmen. If you're just starting out, you probably don't really know what you're looking for yet; the way to fix that is to make small bets. Draw lots of cards, try lots of things, and don't spend too much. In a romantic context, this means going on dates with a variety of people; in the context of housing, this means renting a few places before you build your dream home.
 
@@ -60,7 +60,7 @@ Some of the time you will fail. That's how you know you're doing it right. If yo
 
 Imagine what kind of person you want to be someday. Then practice the skills that person needs to have. Put yourself in situations that will give you that practice. This is how you shape yourself as a person over the long term. 
 
-**Finally:** don't forget about your values. What do you believe in? Wisdom and good judgement can show you the safe path, the easy path--but that's not always the *right* path. A/B tests are a great way to tell you which product design is more popular; follow them far enough and you'll end up with an unobjectionable design that everyone is okay with and nobody loves. What hill are you willing to die on?
+**Finally:** don't forget about your values. What do you believe in? Wisdom and good judgment can show you the safe path, the easy path--but that's not always the *right* path. A/B tests are a great way to tell you which product design is more popular; follow them far enough and you'll end up with an unobjectionable design that everyone is okay with and nobody loves. What hill are you willing to die on?
 
 _Next post: Earning your own XP_
 
