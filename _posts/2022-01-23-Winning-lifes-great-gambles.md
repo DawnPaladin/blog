@@ -20,7 +20,7 @@ The worst option is to never settle on anything. The second-worst option is to b
 
 Your plan going in is your **deliberate strategy.** You've drawn your initial cards, you've looked them over, you've deliberated, and you have a plan. It's a good plan and you feel good about it. Everything is going to go great.
 
-Then you draw a new card, and everything changes. A possible new **emergent strategy** blossoms into being. This new strategy has the potential to be *so* much better--but for it to work, you're going to need to abandon your current strategy, and you'll need to draw one particular card later. Should you go for it?
+Then you draw a new card, and everything changes. A possible new **emergent strategy** blossoms into being. This new strategy has the potential to be *so* much better -- but for it to work, you're going to need to abandon your current strategy, and you'll need to draw one particular card later. Should you go for it?
 
 <img class="meme" src="{{ '/assets/2022-01-23/distracted-strategist.jpg' | absolute_url }}" alt="Distracted Boyfriend ignores 'Old deliberate strategy', instead staring after 'New emergent strategy'" />
 
@@ -52,16 +52,16 @@ There's a lot of change blowing around these days. Stay nimble.
 
 **Fourth,** there's no point in dithering about strategies you don't have the resources to execute. A corollary to this rule is that you should try to maintain enough resources that you can afford to pivot to a new strategy when it becomes necessary. Here's a quote from chapter 5:
 
-> Professor Amar Bhide showed in his _Origin and Evolution of New Business_ that 93 percent of all companies that ultimately become successful had to abandon their original strategy--because the original plan proved not to be viable. In other words, successful companies don't succeed because they have the right strategy at the beginning; but rather, because they have money left over after the original strategy fails, so that they can pivot and try another approach. Most of those that fail, in contrast, spend all their money on their original strategy--which is usually wrong.
+> Professor Amar Bhide showed in his _Origin and Evolution of New Business_ that 93 percent of all companies that ultimately become successful had to abandon their original strategy -- because the original plan proved not to be viable. In other words, successful companies don't succeed because they have the right strategy at the beginning; but rather, because they have money left over after the original strategy fails, so that they can pivot and try another approach. Most of those that fail, in contrast, spend all their money on their original strategy -- which is usually wrong.
 
-**Fifth:** Everything you do gives you experience doing that thing. Programming, talking to people, doing the right thing under pressure--each of these is a skill that you get better at with practice. So when you're deciding which opportunities to pursue, pick the ones that will give you the type of experience you need for your later goals.[^1]
+**Fifth:** Everything you do gives you experience doing that thing. Programming, talking to people, doing the right thing under pressure -- each of these is a skill that you get better at with practice. So when you're deciding which opportunities to pursue, pick the ones that will give you the type of experience you need for your later goals.[^1]
 
 Some of the time you will fail. That's how you know you're doing it right. If you never fail, it's a sign that what you're working on is too easy for you. Learning what to do with failure is an essential skill that you want to develop while the stakes are still low.
 
 Imagine what kind of person you want to be someday. Then practice the skills that person needs to have. Put yourself in situations that will give you that practice. This is how you shape yourself as a person over the long term. 
 
-**Finally:** don't forget about your values. What do you believe in? Wisdom and good judgment can show you the safe path, the easy path--but that's not always the *right* path. A/B tests are a great way to tell you which product design is more popular; follow them far enough and you'll end up with an unobjectionable design that everyone is okay with and nobody loves. What hill are you willing to die on?
+**Finally:** don't forget about your values. What do you believe in? Wisdom and good judgment can show you the safe path, the easy path -- but that's not always the *right* path. A/B tests are a great way to tell you which product design is more popular; follow them far enough and you'll end up with an unobjectionable design that everyone is okay with and nobody loves. What hill are you willing to die on?
 
 _Next post: Earning your own XP_
 
-[^1]: This also applies to other people. Keep this in mind when you're making decisions on a child's behalf. And if you're looking for a qualified employee, look for one whose experiences have prepared him for the role he'll be going into--not just one who's generically successful. For more, see chapter 8 of *How Will You Measure Your Life*.
+[^1]: This also applies to other people. Keep this in mind when you're making decisions on a child's behalf. And if you're looking for a qualified employee, look for one whose experiences have prepared him for the role he'll be going into -- not just one who's generically successful. For more, see chapter 8 of *How Will You Measure Your Life*.
