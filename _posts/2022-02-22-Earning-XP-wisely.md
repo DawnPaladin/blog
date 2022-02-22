@@ -1,17 +1,19 @@
 ---
 title: Earning XP wisely
-date: 2022-02-11
+date: 2022-02-22
 tags: book-report how-will-you-measure-your-life
-excerpt: Do it yourself -- but don't do it for yourself.
+excerpt: Primary skills, secondary skills, and the dangers of outsourcing
 ---
 
 _Lessons from video games and_ How Will You Measure Your Life? _(chapter 7) by Clayton M. Christensen_
 
 One of the valuable lessons roleplaying games like _Skyrim_ have to teach is that you have some control over what kind of person you are. In _Skyrim_, when you practice a skill, you earn experience points (XP) in that skill. Earn enough experience points and you level up that skill, making you better at it.
 
-There's more to this than "practice makes perfect". Given a finite lifespan, each skill you improve has an opportunity cost. Choosing to solve a problem one way instead of another _changes who you are_ a little bit, because you gain experience in the skills you use. Like water slowly carving a riverbed, your day-to-day choices shape who you are as a person; every time you do something, it gets a little bit easier to do that again next time, whether those choices are good or bad. This is illustrated by...
+There's more to this than "practice makes perfect". Given a finite lifespan, each skill you improve has an opportunity cost. Choosing to solve a problem one way instead of another _changes who you are_ a little bit, because you gain experience in the skills you use. Like water slowly carving a riverbed, your day-to-day choices shape who you are as a person; every time you do something, it gets a little bit easier to do that again next time, whether those choices are good or bad. This is illustrated by...[^1]
 
-<img class="" src="{{ '/assets/2022-02-11/The-Legend-of-Dell-and-Asus.png' | absolute_url }}" alt="The Legend of Dell and Asus" />
+<img class="" src="{{ '/assets/2022-02-22/The-Legend-of-Dell-and-Asus.png' | absolute_url }}" alt="The Legend of Dell and Asus" />
+
+[^1]: The story of Dell and Asus is told by Christensen in chapter 7 of _How Will You Measure Your Life?_ I haven't been able to independently confirm it, so I'm retelling it here in a more fairy-tale style.
 
 Once upon a time, there was a company named Dell. Dell was one of the best computer manufacturers in the whole world. In the early 1990s, as the internet was just becoming a thing, Dell realized they could offer computers more cheaply than established competitors by selling them through the internet instead of having a storefront. What's more, they sold _customized_ computers: on their website you could pick which parts you wanted, and they would build the PC for you and ship it to you within 48 hours -- a marvel! 
 
@@ -39,15 +41,19 @@ Then, one day in 2005, Asus said "Good news, everyone! Now you can buy your very
 
 Every step along the way had made sense. Each decision had achieved its goal. But the result of that optimization process was a hollowed-out company. All they did was make money by providing branding to Asus...until Asus decided to take over that too.
 
-<img class="meme" src="{{ '/assets/2022-02-11/Surprised_Pikachu.jpg' | absolute_url }}" alt="Surprised Pikachu" />
+<img class="meme" src="{{ '/assets/2022-02-22/Surprised_Pikachu.jpg' | absolute_url }}" alt="Surprised Pikachu" />
 
 Amazingly, Dell recovered. Michael Dell and associates [paid $24.9 billion dollars](https://www.reuters.com/article/us-dell-buyout/dell-seals-24-9-billion-buyout-delisting-tuesday-idUSBRE99S0VQ20131029) to take Dell off the stock market and make some big changes; now they're publicly traded again as a general-technology company. But this story shows us the downside of outsourcing: when you pay someone else to do something for you, you forfeit the XP you would have earned doing it yourself.
 
 Does this mean you should *never* pay someone else to handle something for you? Obviously not. You just need to be deliberate about which skills you're practicing and which ones you're skipping over. 
 
-I think every person should have a few primary skills they're great at, a larger number of secondary skills they're OK at, and a much larger number of skills they're content to ignore. Valve (creator of the Steam Store that dominates PC gaming) calls this being a T-shaped person (see their [employee handbook](https://cdn.cloudflare.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf), page 47).
+I think every person should have a few primary skills they're great at, a larger number of secondary skills they're OK at, and an unbounded number of skills they're content to ignore.[^2] Valve (creator of the Steam Store that dominates PC gaming) calls this being a T-shaped person.[^3]
 
-<img class="photo" src="{{'/assets/2022-02-11/T-shaped-person.png' | absolute_url }}" alt="Heavy Weapons Guy has many skills: hugeness, sandvich preparation, Über-charging, killing people, and Russian folk dancing. But there is one thing he is extremely good at, and that's heavy weaponry." />
+[^2]: This is me talking, not Christensen.
+
+[^3]: See Valve's [employee handbook](https://cdn.cloudflare.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf), page 47.
+
+<img class="photo" src="{{'/assets/2022-02-22/T-shaped-person.png' | absolute_url }}" alt="Heavy Weapons Guy has many skills: hugeness, sandvich preparation, Über-charging, killing people, and Russian folk dancing. But there is one thing he is extremely good at, and that's heavy weaponry." />
 
 ## Primary skills
 
