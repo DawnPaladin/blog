@@ -1,0 +1,11 @@
+_id: 8fa00b10-06d3-11ed-91e6-53ef1e872c68
+message: >-
+  As you talk about reducing dependence on cloud, don't you think not having a
+  local backup repository as well is a risk? My ideal scenario would be backing
+  up locally and then replicating to the cloud in much the way you define.
+  (Trying to figure out how to do it gracefully though.)
+name: Paul
+email: 059ddc14c92f45eb8c14f404ce20ae3b
+url: ''
+hidden: ''
+date: 1658174124
