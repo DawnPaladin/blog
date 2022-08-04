@@ -59,7 +59,7 @@ Once you have your account, you need to make a bucket. A bucket is just a contai
 
 <img class="photo" src="{{ '/assets/2021-10-01/create-a-bucket.png' | absolute_url }}" alt="Backblaze's 'Create a Bucket' screen" />
 
-Your bucket needs a name; I recommend naming it after your computer. What's that? Your computer doesn't have a name? Well, why not? Assuming you plan to have more than one computer over the course of your life, you _will_ need to uniquely identify each one to your backup software. A name like "HP Laptop #2" is going to become confusing at some point. My recommendation: think about your computer's traits, then think of a character (either real-life or from fiction) that reminds you of those traits. For example, my Macbook is attractive, powerful, and wants to make all of my decisions for me, so I named it after Starlight Glimmer from _Friendship is Magic._ Think of a name. Any name. Then put it in the Bucket Name field.
+Your bucket needs a name; I recommend naming it after your computer. What's that? Your computer doesn't have a name? Well, why not? Assuming you plan to have more than one computer over the course of your life, you _will_ need to uniquely identify each one to your backup software. A name like "HP Laptop #2" is going to become confusing at some point. My recommendation: think about your computer's traits, then think of a character (either real-life or from fiction) that reminds you of those traits. Think of a name. Any name. Then put it in the Bucket Name field.
 
 All of the other defaults are fine. You don't need Backblaze to encrypt the data because we're going to do it on our end; that way there's no possibility of anyone reading our backups. Click "Create a Bucket".
 
