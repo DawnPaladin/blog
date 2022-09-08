@@ -92,4 +92,4 @@ comments:
   provider: "staticman_v2"
   staticman:
     branch: "master"
-    endpoint: https://dawnpaladin-staticman.herokuapp.com/v3/entry/github/
+    endpoint: https://dawnpaladin-staticman.fly.dev/v3/entry/github/
