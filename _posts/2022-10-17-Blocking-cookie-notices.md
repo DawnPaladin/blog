@@ -25,3 +25,9 @@ Find uBlock Origin in the list and click the + button to install it.
 <img src="{{ '/assets/2022-10-17/firefox-addons-ublock.jpg' | absolute_url }}" alt="Firefox for Android addons list" />
 
 uBlock Origin will appear at the top of the add-ons list. Tap it, then tap Settings. This will take you to the filter list. Expand "Annoyances", check the "EasyList Cookie" checkbox, and hit the "Reload"-style icon at the top of the page. You're done!
+
+## Bonus feature: Bypass paywalls
+
+Some sites try to track their visitors and rate-limit them to a handful of articles per month. You can block these trackers with the Bypass Paywalls Clean filter.
+
+Right-click on [this link](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt) and copy the link location. Then go to the Filter Lists screen in uBlock Origin, click "Import" at the bottom, and paste the link into the box. Click "Apply Changes" at the top. Enjoy.
