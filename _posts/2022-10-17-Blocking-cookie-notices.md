@@ -30,4 +30,4 @@ uBlock Origin will appear at the top of the add-ons list. Tap it, then tap Setti
 
 Some sites try to track their visitors and rate-limit them to a handful of articles per month. You can block these trackers with the Bypass Paywalls Clean filter.
 
-Right-click on [this link](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt) and copy the link location. Then go to the Filter Lists screen in uBlock Origin, click "Import" at the bottom, and paste the link into the box. Click "Apply Changes" at the top. Enjoy.
+Right-click on [this link](https://gitlab.com/magnolia1234/bypass-paywalls-clean-filters/-/raw/main/bpc-paywall-filter.txt) and copy the link address. Then go to the Filter Lists screen in uBlock Origin, click "Import" at the bottom, and paste the link into the box. Click "Apply Changes" at the top. Enjoy.
