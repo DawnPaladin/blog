@@ -15,12 +15,7 @@ I should begin by cautioning the reader about the information environment surrou
 
 The most important determinant of whether you'll be happy with an EV is your charging situation. First, will you be able to install a charger where you park your EV every night? If you own your home, the answer is probably yes. If you live in an apartment complex, the answer is probably no, unless you can persuade the owners to install one.
 
-Second, what kind of rates does your electric utility provide for off-peak electricity? My electric co-op provides an incredibly good deal in this regard. My first month of driving after we got everything installed cost me about $7.50 in electricity. Later on, when a home disaster wrecked our kitchen and forced us to drive to restaurants for most of our meals, our consumption rose to $15/month. For comparison, before buying our EV, we would commonly spend $150 a month on gas. The difference between driving out to buy expensive tanks of gasoline versus easy charging at home is night and day, because buying electricity at night is so cheap.
-
-Here's the formula for figuring out how much driving an EV would cost you, relative to what you're paying for gasoline right now.
-
-Gas cost = gas price ($/gal) / MPG (mi/gal) * miles
-Electric cost = electric rate ($/kwhr) / (mi/kwhr) * miles
+Second, what kind of rates does your electric utility provide for off-peak electricity? My electric co-op provides an incredibly good deal in this regard. My first month of driving after we got everything installed cost me about $7.50 in electricity. Later on, when a home disaster wrecked our kitchen and forced us to drive to restaurants for most of our meals, our consumption rose to $15/month. For comparison, before buying our EV, we would commonly spend $150 a month on gas. The difference between driving out to buy expensive tanks of gasoline versus easy charging at home is night and day, because buying electricity at night is so cheap. (At the end of the post, I'll help you figure out what kinds of savings are possible.)
 
 Okay, that covers cost of fuel/energy. Before I finish talking about operating cost, it's time for acronyms!
 
@@ -54,7 +49,7 @@ I recognize that I'm not objective about this. They have lots of fans, and I'm t
 
 If you have loads of money to spend, the sky's the limit. You have dozens of options. But if you're not in the market for a luxury vehicle, the two most popular cars at the low end of the pricing scale are the Nissan Leaf and the Chevy Bolt. I recommend test-driving both.
 
-The Leaf was the world's first mass-market EV all the way back in 2009. They made some decisions others have improved on. My biggest concern about the Leaf is that it uses an older charging connector called CHAdeMO; this connector is becoming less popular, and I am concerned that eventually it will become hard to find. Leaf batteries also don't have liquid cooling systems, instead relying on the surrounding air; this makes charging take a long time when it's hot out, and it can degrade the batteries over time. On the plus side, if you have a power outage, the Leaf's battery can [power the appliances in your home](https://www.inverse.com/input/tech/nissan-leaf-bidirectional-charging-vehicle-to-grid), potentially for several days.
+The Leaf was the world's first mass-market EV all the way back in 2009. They made some decisions others have improved on. My biggest concern about the Leaf is that it uses an older charging connector called CHAdeMO; this connector is becoming less popular, and I am concerned that eventually it will become hard to find compatible charging stations. Leaf batteries also don't have liquid cooling systems, instead relying on the surrounding air; this makes charging take a long time when it's hot out, and it can degrade the batteries over time. On the plus side, if you have a power outage, the Leaf's battery can [power the appliances in your home](https://www.inverse.com/input/tech/nissan-leaf-bidirectional-charging-vehicle-to-grid), potentially for several days.
 
 The other popular choice is the Chevy Bolt. The Bolt comes in 2 variants: the Bolt EV and the Bolt EUV. The Bolt EUV is an SUV; the Bolt EV is a hatchback, and it's slightly smaller. Both are good, but my wife and I picked the EV. It's a solid all-around car with a good infotainment system and good safety features. They redesigned the infotainment system in 2022, and it was a big enough improvement that we didn't want to go back past that model year. It gets about 200 miles of range, and a DC fast-charger will get it back up to 80% in about an hour, after which charging slows down (as with most current EVs). I decided to get the 2LT trim, as that had some safety features I wanted, me being still traumatized by maniacal Dallas drivers.
 
@@ -86,8 +81,12 @@ There are three "levels" of EV chargers. The higher the level, the faster the ch
 
 Level 1 charging takes too long to be practical; level 3 charging requires more electrical infrastructure than you want at your house. Level 2 chargers are the sweet spot that most EV owners will want.
 
-Lots of vendors will sell you a level 2 charger. (Chevy will even give you one if you buy a Bolt new.) After asking around on Reddit, I ordered an Emporia charger which I've been very happy with. Emporia connected me to a local electrician who installed the charger for a reasonable rate. After six months, the charger died; Emporia immediately sent me a new one and paid for the electrician to swap it out. That's good customer service!
+Lots of vendors will sell you a level 2 charger. (Chevy will even give you one if you buy a Bolt new.) After asking around on Reddit, I ordered an [Emporia charger](https://shop.emporiaenergy.com/products/refurbished-smart-home-ev-charger-black?variant=43782313148671) which I've been very happy with. Emporia connected me to a local electrician who installed the charger for a reasonable rate. After six months, the charger died; Emporia immediately sent me a new one and paid for the electrician to swap it out. That's good customer service!
 
 ## Conclusion
 
 I'm extremely happy with my EV. I never want to go back. You never realize how much time and money you waste at gas stations until you don't have to do it any more. I'm looking forward to a day when most cars are electric and there's no exhaust smell as you walk down a busy road.
+
+To help you figure out the cost difference, [I made this spreadsheet](https://docs.google.com/spreadsheets/d/187zEBg-sRATTNvxQ3rqfCqKm-P6YNqOkpOKdeu809Yg/edit?usp=sharing). It's filled in with numbers from my own experience; you can make a copy and fill in your own figures to see if an EV makes sense for you.
+
+There's a lot to learn about EVs, but they already make good financial sense. Next time you go car shopping, I hope you consider going electric.
