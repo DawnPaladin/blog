@@ -26,18 +26,18 @@ A quick clarification: Strictly speaking, ChatGPT isn't an LLM. [ChatGPT](https:
     height: 5em;
     margin: 0 1em 1em 0;
 }
-.logo:hover {
-    box-shadow: none;
+.page__content a.no-shadow:hover {
+    box-shadow: none !important;
 }
 </style>
 
-<a href="https://chatgpt.com/"><img class="logo" src="{{ '/assets/2025-03-02/OpenAI-black-monoblossom.svg' | absolute_url }}" alt="ChatGPT logo"/>ChatGPT</a> is popular for good reason. It does a lot of things very well, it has a good app, and it has a "memory" feature so it can remember things you tell it for future conversations. This is my favorite chatbot and the one I use most often. If you use it, make sure you sign in; logged-in users get a much smarter model.
+<a href="https://chatgpt.com/" class="no-shadow"><img class="logo" src="{{ '/assets/2025-03-02/OpenAI-black-monoblossom.svg' | absolute_url }}" alt="ChatGPT logo"/>ChatGPT</a> is popular for good reason. It does a lot of things very well, it has a good app, and it has a "memory" feature so it can remember things you tell it for future conversations. This is my favorite chatbot and the one I use most often. If you use it, make sure you sign in; logged-in users get a much smarter model.
 
-<a href="https://claude.ai"><img class="logo add-margin" src="{{ '/assets/2025-03-02/claude-ai-icon.svg' | absolute_url }}" alt="Claude logo" /></a>My second choice is [Claude](https://claude.ai). Claude is better at programming than ChatGPT, and some consider him to have more emotional intelligence. For me, his biggest drawback is the lack of a memory feature - you have to give him all the relevant context in each conversation.[^2] I use Claude for programming and when I'm out of free uses of ChatGPT.
+<a href="https://claude.ai" class="no-shadow"><img class="logo add-margin" src="{{ '/assets/2025-03-02/claude-ai-icon.svg' | absolute_url }}" alt="Claude logo" /></a>My second choice is [Claude](https://claude.ai). Claude is better at programming than ChatGPT, and some consider him to have more emotional intelligence. For me, his biggest drawback is the lack of a memory feature - you have to give him all the relevant context in each conversation.[^2] I use Claude for programming and when I'm out of free uses of ChatGPT.
 
 [^2]: This is true as of posting this in March 2025, but I'm told they're working on adding this feature. You can also link Claude to a Google Doc and put any knowledge you want him to have in there; this can be a good way to give him context across multiple conversations.
 
-<a href="https://perplexity.ai"><img class="logo" src="{{ '/assets/2025-03-02/perplexity-logo-icon.svg' | absolute_url }}" alt="Perplexity logo" />Perplexity</a> is an LLM-based search engine. Google and DuckDuckGo are good for searching for keywords, but if your question is best phrased as a full sentence, Perplexity is better. If your question could be phrased as a paragraph, you should try [Perplexity Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research) - it will spend several minutes searching the internet for you, following the relevant links, and compile a report.
+<a href="https://perplexity.ai" class="no-shadow"><img class="logo" src="{{ '/assets/2025-03-02/perplexity-logo-icon.svg' | absolute_url }}" alt="Perplexity logo" />Perplexity</a> is an LLM-based search engine. Google and DuckDuckGo are good for searching for keywords, but if your question is best phrased as a full sentence, Perplexity is better. If your question could be phrased as a paragraph, you should try [Perplexity Deep Research](https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research) - it will spend several minutes searching the internet for you, following the relevant links, and compile a report.
 
 You may also have heard of [Gemini](https://gemini.google.com), Google's LLM. Gemini hasn't distinguished itself over its competition in any way that I know of; I've tried it a few times and found it unhelpful. [DeepSeek](https://www.deepseek.com/) has been in the news recently; it's notable for being very fast and very cheap, but it's not better than the competition in any way but price, and you can get pretty far on ChatGPT's free tier. DeepSeek also censors topics that are political in China and [leaked a bunch of sensitive user information](https://arstechnica.com/security/2025/01/report-deepseeks-chat-histories-and-internal-data-were-publicly-exposed/) only 9 days after releasing their new R1 model, so I recommend against trusting them.
 
