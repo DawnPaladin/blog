@@ -26,6 +26,9 @@ A quick clarification: Strictly speaking, ChatGPT isn't an LLM. [ChatGPT](https:
     height: 5em;
     margin: 0 1em 1em 0;
 }
+.logo:hover {
+    box-shadow: none;
+}
 </style>
 
 <a href="https://chatgpt.com/"><img class="logo" src="{{ '/assets/2025-03-02/OpenAI-black-monoblossom.svg' | absolute_url }}" alt="ChatGPT logo"/>ChatGPT</a> is popular for good reason. It does a lot of things very well, it has a good app, and it has a "memory" feature so it can remember things you tell it for future conversations. This is my favorite chatbot and the one I use most often. If you use it, make sure you sign in; logged-in users get a much smarter model.
