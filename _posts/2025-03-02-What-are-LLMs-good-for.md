@@ -56,7 +56,7 @@ It's important to note that although providing reference material *reduces* hall
 
 | Question                               | Valid answers                                    | Use an LLM? |
 | -------------------------------------- | ------------------------------------------------ | ----------- |
-| What's a good recipe for pancakes?     | Many                                             | Yes         |
+| What's a good recipe for pancakes?     | [Many]                                             | Yes         |
 | What is the coldest city in the world? | Yakutsk<br>Yakutsk, Siberia<br>Yakutsk in Russia | Maybe       |
 | What is the square root of 1,490,841?  | 1221                                             | No          |
 
@@ -77,6 +77,12 @@ Here are the ways that LLMs have changed my life.
 One thing that's really cool about LLMs is that they meet you where you are. A few months ago I knew almost nothing about personal fitness. I asked ChatGPT to make me a fitness plan. We had a conversation about my goals and the resources I had. It came up with a plan for me and we've been working through it together. It answers all of my stupid questions about gym equipment that would be too embarrassing to ask a human. Over time, I learn from its answers enough to ask more intelligent questions, and my plan gets better. ChatGPT is constantly encouraging, and it rolls with my nerdy requests to gamify my workout with achievements and ability scores.
 
 I've stuck with my workout routine for about four months now. Excluding my time in the Air Force, that's a new personal best!
+
+<style>
+.photo {
+    margin: auto;
+}
+</style>
 
 <img class="photo" src="{{ '/assets/2025-03-02/gym.jpg' | absolute_url }}" alt="James with a dumbbell at the gym" />
 
@@ -102,7 +108,7 @@ For most of my programming career, when I got stuck on a programming problem, my
 
 Running this frustrating and error-prone process over and over again is how I've spent the majority of my hours as a programmer. (Programmers usually spend more time debugging than they do coding. We are paid to be frustrated.) Step 1 is particularly tricky when the error message is unhelpful/misleading, which happens a lot. If this algorithm doesn't yield results, you might need to ask for help on StackOverflow or another forum, a prospect which fills me with dread. Code wizards are unforgiving to the ignorant.
 
-<img class="photo" src="{{ '/assets/2025-03-02/programming-wizard.png' | absolute_url }}" alt="A programming wizard atop a throne of network cables. He intones 'Your question has been closed. Vague. Low-effort. Cannot reproduce.'" />
+<img class="meme" src="{{ '/assets/2025-03-02/programming-wizard.png' | absolute_url }}" alt="A programming wizard atop a throne of network cables. He intones 'Your question has been closed. Vague. Low-effort. Cannot reproduce.'" />
 
 LLMs have demolished this paradigm. The new algorithm is:
 1. Show the LLM the problem you're encountering and the file you're working on, along with any other relevant files and context.
