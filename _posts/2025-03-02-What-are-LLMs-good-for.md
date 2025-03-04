@@ -26,7 +26,7 @@ A quick clarification: Strictly speaking, ChatGPT isn't an LLM. [ChatGPT](https:
     height: 5em;
     margin: 0 1em 1em 0;
 }
-.page__content a.no-shadow:hover {
+.page__content a.no-shadow:hover img.logo {
     box-shadow: none !important;
 }
 </style>
