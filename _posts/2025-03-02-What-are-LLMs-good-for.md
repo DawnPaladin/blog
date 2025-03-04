@@ -73,10 +73,10 @@ LLMs aren't like traditional computer programs. You can give them the same input
 ## Things I've found LLMs useful for
 So if you can't always trust what an LLM says, what are they good for? The answer is that there are lots of questions where "mostly right" is fine and combines well with their other strengths, which are:
 - Sorting through large amounts of data quickly
-- Adapting to your level of understanding
 - Summarizing stuff
 - Small-scale coding
 - Infinite patience
+- Adapting to you
 - Listening (we'll get to this one in a bit)
 
 Here are the ways that LLMs have changed my life.
