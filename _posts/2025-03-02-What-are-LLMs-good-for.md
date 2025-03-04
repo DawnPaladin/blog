@@ -87,7 +87,7 @@ I've stuck with my workout routine for about four months now. Excluding my time 
 <img class="photo" src="{{ '/assets/2025-03-02/gym.jpg' | absolute_url }}" alt="James with a dumbbell at the gym" />
 
 ### Learning to cook
-I've been wanting to get better at cooking, but I didn't know where to start, so I made a list of my favorite foods, [gave it to ChatGPT](https://chatgpt.com/share/67bfebd9-bbc8-800b-b1f7-6f5c3ab9bfe4), and asked it to come up with some healthy recipes. I had it turn the recipes into a meal plan and then a shopping list of ingredients. Once I get access to [Operator](https://www.youtube.com/live/CSE77wAdDLg?si=3ObSblnXQgXWdL8-), I'm going to make it do my grocery shopping for me. ChatGPT has made me a much more confident cook and has come up with some of my favorite recipes. I'm not as good a cook as my wife, but the gap is closing.
+I've been wanting to get better at cooking, but I didn't know where to start, so I made a list of my favorite foods, [gave it to ChatGPT](https://chatgpt.com/share/67bfebd9-bbc8-800b-b1f7-6f5c3ab9bfe4), and asked it to come up with some healthy recipes. I had it turn the recipes into a meal plan and then a shopping list of ingredients. Once I get access to [Operator](https://openai.com/index/introducing-operator/), I'm going to make it do my grocery shopping for me. ChatGPT has made me a much more confident cook and has come up with some of my favorite recipes. I'm not as good a cook as my wife, but the gap is closing.
 
 <img class="photo" src="{{ '/assets/2025-03-02/cooking.jpg' | absolute_url }}" alt="James cooking burgers on the stove" />
 
