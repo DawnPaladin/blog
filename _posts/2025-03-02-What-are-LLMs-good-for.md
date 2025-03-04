@@ -80,6 +80,7 @@ I've stuck with my workout routine for about four months now. Excluding my time 
 
 <style>
 .photo {
+    display: block;
     margin: auto;
 }
 </style>
@@ -94,7 +95,7 @@ I've been wanting to get better at cooking, but I didn't know where to start, so
 ### Figuring out coding libraries
 It's a sad truth about the world of programming that there is never enough good documentation. Programming is fun, so a lot of developers make really good stuff for free. Writing documentation is usually not considered fun, so there's much less of it. There are tons of libraries out there that can provide great functionality…if you can figure out how they work.
 
-Last week I had a question about a new programming library that wasn't answered by the documentation. I downloaded the library and fed it to an LLM. The LLM was able to read the code, answer my question, suggest a couple of plans for how to solve my problem, and help me alter my codebase to fix the issue. 
+Last week I had a question about a new programming library that wasn't answered by the documentation. I downloaded the library and fed it to Claude. Claude was able to read the code, answer my question, suggest a couple of plans for how to solve my problem, and help me alter my codebase to fix the issue. 
 
 I often hear assertions that it's impossible for an LLM to reason. Moments like that one make me deeply skeptical of that claim.
 
