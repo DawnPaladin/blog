@@ -56,7 +56,9 @@ It's important to note that although providing reference material *reduces* hall
 
 <style>
 table {
-    margin: auto;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 </style>
 
