@@ -88,8 +88,8 @@ tag_archive:
   type: liquid
   path: /tags/
 
-comments:
-  provider: "staticman_v2"
-  staticman:
-    branch: "master"
-    endpoint: https://dawnpaladin-staticman.fly.dev/v3/entry/github/
+# comments:
+#   provider: "staticman_v2"
+#   staticman:
+#     branch: "master"
+#     endpoint: https://dawnpaladin-staticman.fly.dev/v3/entry/github/
